@@ -1,4 +1,4 @@
-# França RP — Comunidade ao vivo
+# França — Comunidade ao vivo
 
 Site estático (HTML, CSS e JS puro) que mostra **quem está ao vivo** na Kick e na Twitch.
 Atualiza sozinho, avisa no navegador quando alguém entra no ar e leva direto ao canal.

@@ -1,5 +1,5 @@
 /* ==========================================================
-   França RP — Comunidade ao vivo
+   França — Comunidade ao vivo
    ========================================================== */
 
 :root {
@@ -174,24 +174,23 @@ p:last-child { margin-bottom: 0; }
   font-family: var(--font-display);
 }
 
-.brand-mark { width: 34px; height: 34px; color: var(--gold); flex-shrink: 0; }
+.brand-mark {
+  width: 42px;
+  height: 28px;
+  border-radius: 6px;
+  overflow: hidden;
+  flex-shrink: 0;
+  box-shadow: 0 6px 16px -8px rgba(0, 0, 0, 0.9), inset 0 0 0 1px rgba(255, 255, 255, 0.18);
+}
+.brand-mark svg { width: 100%; height: 100%; display: block; }
 
 .brand-text {
   display: inline-flex;
   align-items: baseline;
   gap: 5px;
   font-size: 1.18rem;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.16em;
   font-weight: 800;
-}
-.brand-text em {
-  font-style: normal;
-  font-size: 0.8rem;
-  letter-spacing: 0.2em;
-  color: var(--gold);
-  border: 1px solid rgba(232, 183, 74, 0.4);
-  padding: 2px 6px;
-  border-radius: 6px;
 }
 
 .nav { display: flex; align-items: center; gap: 26px; }
@@ -779,6 +778,151 @@ p:last-child { margin-bottom: 0; }
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--muted-2);
+}
+
+/* ---------- Métricas / ranking ---------- */
+
+.metricas-controles {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 26px;
+}
+
+.chips-categoria {
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  margin-bottom: 0;
+}
+
+.chips-categoria.is-disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.chip-categoria {
+  font-size: 0.8rem;
+  padding: 7px 14px;
+}
+
+.ranking {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.rank-item {
+  display: grid;
+  grid-template-columns: 36px 46px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(15, 23, 42, 0.55);
+  transition: border-color 0.25s ease, transform 0.25s ease, background-color 0.25s ease;
+}
+
+.rank-item:hover {
+  border-color: var(--line-strong);
+  background: rgba(19, 29, 51, 0.75);
+  transform: translateX(2px);
+}
+
+.rank-item.is-podio { border-color: rgba(232, 183, 74, 0.28); }
+
+.rank-pos {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--muted-2);
+  text-align: center;
+}
+.rank-item.is-podio .rank-pos { color: var(--gold); }
+
+.rank-avatar {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: linear-gradient(145deg, rgba(232, 183, 74, 0.2), rgba(59, 110, 245, 0.18));
+  border: 1px solid var(--line-strong);
+  display: grid;
+  place-items: center;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--gold-soft);
+}
+
+.rank-info { display: grid; gap: 5px; min-width: 0; }
+
+.rank-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.95rem;
+  min-width: 0;
+}
+.rank-name > span:first-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.rank-bar {
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.07);
+  overflow: hidden;
+}
+.rank-bar span {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(232, 183, 74, 0.55), var(--gold-soft));
+  transition: width 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.rank-meta {
+  font-size: 0.75rem;
+  color: var(--muted-2);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+.rank-meta .sep { opacity: 0.4; }
+
+.rank-value {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.02rem;
+  white-space: nowrap;
+  text-align: right;
+  color: var(--text);
+}
+.rank-value small {
+  display: block;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 0.66rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted-2);
+}
+
+.ranking-vazio {
+  text-align: center;
+  color: var(--muted);
+  padding: 34px 22px;
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius);
+  margin: 0;
 }
 
 /* ---------- Sobre ---------- */

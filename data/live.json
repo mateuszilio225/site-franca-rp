@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-10-24T13:03:26.481Z",
+  "geradoEm": "2026-10-24T13:45:34.947Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -31,7 +31,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 111659,
+      "seguidores": 111660,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -55,6 +55,17 @@
       "thumb": "",
       "seguidores": 3707,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
+    },
+    "mikotofps": {
+      "plataforma": "kick",
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 3750,
+      "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
       "plataforma": "kick",

@@ -12,6 +12,9 @@
       <stop offset="0" stop-color="#f5d489"/>
       <stop offset="1" stop-color="#d9a233"/>
     </linearGradient>
+    <clipPath id="bandeira">
+      <rect x="84" y="196" width="132" height="88" rx="10"/>
+    </clipPath>
   </defs>
 
   <rect width="1200" height="630" fill="url(#bg)"/>
@@ -22,16 +25,19 @@
     <path d="M120 0v630M360 0v630M600 0v630M840 0v630M1080 0v630"/>
   </g>
 
-  <g transform="translate(80 200)">
-    <path d="M48 0 8 17v25c0 25 17.6 44 40 48 22.4-4 40-23 40-48V17L48 0Z" fill="none" stroke="url(#gold)" stroke-width="4" stroke-linejoin="round"/>
-    <path d="M48 26v42M28 43h40" stroke="url(#gold)" stroke-width="4" stroke-linecap="round"/>
+  <!-- Bandeira da França -->
+  <g clip-path="url(#bandeira)">
+    <rect x="84" y="196" width="44" height="88" fill="#0b3d91"/>
+    <rect x="128" y="196" width="44" height="88" fill="#f5f7fb"/>
+    <rect x="172" y="196" width="44" height="88" fill="#e63946"/>
   </g>
+  <rect x="84" y="196" width="132" height="88" rx="10" fill="none" stroke="#ffffff" stroke-opacity=".25" stroke-width="2"/>
 
-  <text x="192" y="252" fill="#e9eef7" font-family="Outfit, Segoe UI, sans-serif" font-size="74" font-weight="800" letter-spacing="6">FRANÇA</text>
-  <text x="192" y="316" fill="url(#gold)" font-family="Outfit, Segoe UI, sans-serif" font-size="40" font-weight="700" letter-spacing="14">ROLEPLAY</text>
+  <text x="250" y="258" fill="#e9eef7" font-family="Outfit, Segoe UI, sans-serif" font-size="74" font-weight="800" letter-spacing="6">FRANÇA</text>
+  <text x="252" y="316" fill="url(#gold)" font-family="Outfit, Segoe UI, sans-serif" font-size="30" font-weight="700" letter-spacing="12">COMUNIDADE AO VIVO</text>
 
-  <text x="84" y="440" fill="#97a3b8" font-family="Inter, Segoe UI, sans-serif" font-size="30">A cidade onde sua história começa.</text>
+  <text x="84" y="430" fill="#97a3b8" font-family="Inter, Segoe UI, sans-serif" font-size="30">Quem está ao vivo na Kick e na Twitch, em um só lugar.</text>
 
-  <rect x="84" y="490" width="248" height="58" rx="29" fill="url(#gold)"/>
-  <text x="208" y="527" text-anchor="middle" fill="#10140f" font-family="Outfit, Segoe UI, sans-serif" font-size="20" font-weight="700">ENTRAR NO DISCORD</text>
+  <rect x="84" y="480" width="248" height="58" rx="29" fill="url(#gold)"/>
+  <text x="208" y="517" text-anchor="middle" fill="#10140f" font-family="Outfit, Segoe UI, sans-serif" font-size="20" font-weight="700">VER QUEM ESTÁ AO VIVO</text>
 </svg>

@@ -1,6 +1,6 @@
 {
   "comunidade": {
-    "nome": "França RP",
+    "nome": "França",
     "discord": "https://discord.gg/",
     "atualizacaoAutomatica": true
   },
@@ -44,6 +44,14 @@
       "slug": "lizrp",
       "url": "https://kick.com/lizrp",
       "destaque": true
+    },
+    {
+      "id": "mikotofps",
+      "nome": "Mikotofps",
+      "plataforma": "kick",
+      "slug": "mikotofps",
+      "url": "https://kick.com/mikotofps",
+      "destaque": false
     },
     {
       "id": "pit9nn",

@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>França RP — Comunidade ao vivo</title>
-  <meta name="description" content="Acompanhe os streamers da comunidade França RP. Veja quem está ao vivo na Kick e na Twitch, com links diretos e notificação quando a live começar." />
+  <title>França — Comunidade ao vivo</title>
+  <meta name="description" content="Acompanhe os streamers da comunidade França. Veja quem está ao vivo na Kick e na Twitch, rankings por audiência e seguidores, com links diretos e notificação quando a live começar." />
   <meta name="theme-color" content="#080d18" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="França RP — Comunidade ao vivo" />
-  <meta property="og:description" content="Veja quem está ao vivo na Kick e na Twitch e não perca nenhuma live da comunidade." />
+  <meta property="og:title" content="França — Comunidade ao vivo" />
+  <meta property="og:description" content="Veja quem está ao vivo na Kick e na Twitch, ranking por audiência e seguidores, e não perca nenhuma live da comunidade." />
   <meta property="og:image" content="assets/img/og-image.svg" />
 
   <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
@@ -23,19 +23,21 @@
 
   <header class="site-header" id="header">
     <div class="container header-inner">
-      <a class="brand" href="#inicio" aria-label="França RP — início">
+      <a class="brand" href="#inicio" aria-label="França — início">
         <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 48 48">
-            <path d="M24 4 6 12v11c0 11 7.6 19.2 18 21 10.4-1.8 18-10 18-21V12L24 4Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
-            <path d="M24 15v18M16 23h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          <svg viewBox="0 0 48 32">
+            <rect width="16" height="32" fill="#0b3d91"/>
+            <rect x="16" width="16" height="32" fill="#f5f7fb"/>
+            <rect x="32" width="16" height="32" fill="#e63946"/>
           </svg>
         </span>
-        <span class="brand-text"><strong>FRANÇA</strong><em>RP</em></span>
+        <span class="brand-text"><strong>FRANÇA</strong></span>
       </a>
 
       <nav class="nav" id="nav" aria-label="Navegação principal">
         <a href="#ao-vivo">Ao Vivo</a>
         <a href="#streamers">Streamers</a>
+        <a href="#metricas">Métricas</a>
         <a href="#comunidade">Comunidade</a>
         <a href="#sobre">Sobre</a>
         <a class="btn btn-primary btn-sm nav-cta" data-discord href="https://discord.gg/" target="_blank" rel="noopener">Discord</a>
@@ -65,7 +67,7 @@
 
       <div class="container hero-inner">
         <p class="eyebrow reveal">
-          <span class="dot"></span> Comunidade França RP • Kick &amp; Twitch
+          <span class="dot"></span> Comunidade França • Kick &amp; Twitch
         </p>
 
         <h1 class="hero-title reveal">
@@ -147,7 +149,7 @@
         <div class="section-head reveal">
           <p class="kicker">Streamers</p>
           <h2>Quem faz a comunidade</h2>
-          <p class="lead">Canais oficiais da França RP. Clique em qualquer card para abrir a live ou o perfil.</p>
+          <p class="lead">Canais oficiais da França. Clique em qualquer card para abrir a live ou o perfil.</p>
         </div>
 
         <div class="chips reveal" id="filtros" role="group" aria-label="Filtrar por plataforma">
@@ -161,8 +163,36 @@
       </div>
     </section>
 
+    <!-- MÉTRICAS -->
+    <section class="section" id="metricas">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">Métricas</p>
+          <h2>Ranking da comunidade</h2>
+          <p class="lead">
+            Quem está com mais (ou menos) audiência agora, quem tem mais seguidores e como
+            cada categoria se comporta. Escolha a métrica e filtre por categoria de live.
+          </p>
+        </div>
+
+        <div class="metricas-controles reveal">
+          <div class="chips" id="chipsMetrica" role="group" aria-label="Escolher métrica">
+            <button class="chip is-active" data-metrica="viewers-desc" type="button">Mais assistidos</button>
+            <button class="chip" data-metrica="viewers-asc" type="button">Menos assistidos</button>
+            <button class="chip" data-metrica="seguidores-desc" type="button">Mais seguidores</button>
+            <button class="chip" data-metrica="seguidores-asc" type="button">Menos seguidores</button>
+          </div>
+
+          <div class="chips chips-categoria" id="chipsCategoria" role="group" aria-label="Filtrar por categoria"></div>
+        </div>
+
+        <ol class="ranking" id="ranking" aria-live="polite" aria-busy="true"></ol>
+        <p class="ranking-vazio" id="rankingVazio" hidden></p>
+      </div>
+    </section>
+
     <!-- COMUNIDADE -->
-    <section class="section" id="comunidade">
+    <section class="section section-alt" id="comunidade">
       <div class="container">
         <div class="section-head reveal">
           <p class="kicker">Comunidade</p>
@@ -198,11 +228,11 @@
     </section>
 
     <!-- SOBRE -->
-    <section class="section section-alt" id="sobre">
+    <section class="section" id="sobre">
       <div class="container narrow">
         <div class="section-head reveal">
           <p class="kicker">Sobre</p>
-          <h2>O que é a França RP</h2>
+          <h2>O que é a França</h2>
           <p class="lead">
             Uma comunidade de streamers e amigos que jogam juntos e transmitem quase todo dia.
             Este site existe para os fãs não perderem nada: um painel simples, leve e sempre atualizado.
@@ -259,11 +289,15 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <a class="brand" href="#inicio">
+        <a class="brand" href="#inicio" aria-label="França — início">
           <span class="brand-mark" aria-hidden="true">
-            <svg viewBox="0 0 48 48"><path d="M24 4 6 12v11c0 11 7.6 19.2 18 21 10.4-1.8 18-10 18-21V12L24 4Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M24 15v18M16 23h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+            <svg viewBox="0 0 48 32">
+              <rect width="16" height="32" fill="#0b3d91"/>
+              <rect x="16" width="16" height="32" fill="#f5f7fb"/>
+              <rect x="32" width="16" height="32" fill="#e63946"/>
+            </svg>
           </span>
-          <span class="brand-text"><strong>FRANÇA</strong><em>RP</em></span>
+          <span class="brand-text"><strong>FRANÇA</strong></span>
         </a>
         <p>Comunidade de streamers. Site não oficial, feito pelos fãs para os fãs.</p>
       </div>
@@ -271,13 +305,14 @@
       <nav class="footer-links" aria-label="Links do rodapé">
         <a href="#ao-vivo">Ao Vivo</a>
         <a href="#streamers">Streamers</a>
+        <a href="#metricas">Métricas</a>
         <a href="#comunidade">Comunidade</a>
         <a href="#sobre">Sobre</a>
       </nav>
 
       <div class="footer-meta">
         <p>Não afiliado à Kick, Twitch ou X.</p>
-        <p>&copy; <span id="year">2026</span> França RP. Todos os direitos reservados.</p>
+        <p>&copy; <span id="year">2026</span> França. Todos os direitos reservados.</p>
       </div>
     </div>
   </footer>

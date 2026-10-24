@@ -1,5 +1,5 @@
 /* ==========================================================
-   França RP — Comunidade ao vivo
+   França — Comunidade ao vivo
    Carrega os streamers, consulta o status ao vivo e avisa
    quando alguém entra no ar.
    ========================================================== */
@@ -15,6 +15,8 @@
     config: null,
     live: null,
     filtro: "todos",
+    metrica: "viewers-desc",
+    categoria: "todas",
     aoVivoAntes: new Set(),
     primeiraCarga: true,
   };
@@ -200,8 +202,8 @@
     }
 
     document.title = lives.length
-      ? `🔴 ${lives.length} ao vivo • França RP`
-      : "França RP — Comunidade ao vivo";
+      ? `🔴 ${lives.length} ao vivo • França`
+      : "França — Comunidade ao vivo";
   };
 
   const renderAtualizacao = () => {
@@ -216,6 +218,150 @@
 
     const quando = formatarDuracao(gerado.toISOString()) || "agora";
     alvo.textContent = `status ${quando} • atualiza a cada minuto`;
+  };
+
+  /* ---------- Métricas / ranking ---------- */
+
+  const METRICAS = {
+    "viewers-desc": { chave: "espectadores", ordem: "desc", aoVivo: true, rotulo: "assistindo" },
+    "viewers-asc": { chave: "espectadores", ordem: "asc", aoVivo: true, rotulo: "assistindo" },
+    "seguidores-desc": { chave: "seguidores", ordem: "desc", aoVivo: false, rotulo: "seguidores" },
+    "seguidores-asc": { chave: "seguidores", ordem: "asc", aoVivo: false, rotulo: "seguidores" },
+  };
+
+  const categoriasAoVivo = () => {
+    const categorias = new Set();
+    Object.values(estado.live?.streamers ?? {}).forEach((status) => {
+      if (status?.aoVivo && status.categoria) categorias.add(status.categoria);
+    });
+    return [...categorias].sort((a, b) => a.localeCompare(b, "pt-BR"));
+  };
+
+  const renderCategorias = () => {
+    const caixa = document.getElementById("chipsCategoria");
+    if (!caixa) return;
+
+    const metrica = METRICAS[estado.metrica] ?? METRICAS["viewers-desc"];
+    const categorias = categoriasAoVivo();
+
+    if (estado.categoria !== "todas" && !categorias.includes(estado.categoria)) {
+      estado.categoria = "todas";
+    }
+
+    caixa.classList.toggle("is-disabled", !metrica.aoVivo);
+    caixa.title = metrica.aoVivo
+      ? ""
+      : "A categoria só existe enquanto o streamer está ao vivo";
+
+    const chips = [
+      `<button class="chip chip-categoria${estado.categoria === "todas" ? " is-active" : ""}" data-categoria="todas" type="button">Todas as categorias</button>`,
+      ...categorias.map(
+        (categoria) =>
+          `<button class="chip chip-categoria${estado.categoria === categoria ? " is-active" : ""}" data-categoria="${escapar(categoria)}" type="button">${escapar(categoria)}</button>`
+      ),
+    ];
+
+    caixa.innerHTML = chips.join("");
+  };
+
+  const itensRanking = () => {
+    const metrica = METRICAS[estado.metrica] ?? METRICAS["viewers-desc"];
+
+    let itens = (estado.config?.streamers ?? [])
+      .filter((streamer) => streamer.aoVivoSuportado !== false)
+      .map((streamer) => ({ streamer, live: statusDe(streamer.id) ?? {} }));
+
+    if (metrica.aoVivo) {
+      itens = itens.filter((item) => item.live.aoVivo);
+      if (estado.categoria !== "todas") {
+        itens = itens.filter((item) => item.live.categoria === estado.categoria);
+      }
+    } else {
+      itens = itens.filter((item) => Number(item.live[metrica.chave]) > 0);
+    }
+
+    itens.sort((a, b) => {
+      const diferenca = (Number(a.live[metrica.chave]) || 0) - (Number(b.live[metrica.chave]) || 0);
+      return metrica.ordem === "asc" ? diferenca : -diferenca;
+    });
+
+    return itens;
+  };
+
+  const renderRanking = () => {
+    const lista = document.getElementById("ranking");
+    const vazio = document.getElementById("rankingVazio");
+    if (!lista) return;
+
+    const metrica = METRICAS[estado.metrica] ?? METRICAS["viewers-desc"];
+    const itens = itensRanking();
+    const maior = Math.max(...itens.map((item) => Number(item.live[metrica.chave]) || 0), 1);
+
+    lista.setAttribute("aria-busy", "false");
+    lista.hidden = itens.length === 0;
+
+    lista.innerHTML = itens
+      .map((item, indice) => {
+        const valor = Number(item.live[metrica.chave]) || 0;
+        const largura = Math.max(6, Math.round((valor / maior) * 100));
+        const live = item.live;
+
+        const avatar = live.avatar
+          ? `<img class="rank-avatar" src="${escapar(live.avatar)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" />`
+          : `<span class="rank-avatar">${escapar(iniciais(item.streamer.nome))}</span>`;
+
+        const detalhes = metrica.aoVivo
+          ? [live.categoria, formatarDuracao(live.iniciadoEm)].filter(Boolean)
+          : [];
+
+        const meta = detalhes.length
+          ? `<div class="rank-meta">${detalhes
+              .map((texto) => escapar(texto))
+              .join('<span class="sep">•</span>')}</div>`
+          : "";
+
+        return `<li class="rank-item${indice < 3 ? " is-podio" : ""}">
+          <span class="rank-pos">${indice + 1}</span>
+          ${avatar}
+          <div class="rank-info">
+            <div class="rank-name"><span>${escapar(item.streamer.nome)}</span>${etiquetaPlataforma(item.streamer.plataforma)}</div>
+            <div class="rank-bar"><span style="width:${largura}%"></span></div>
+            ${meta}
+          </div>
+          <span class="rank-value">${formatarNumero(valor)}<small>${metrica.rotulo}</small></span>
+        </li>`;
+      })
+      .join("");
+
+    if (vazio) {
+      vazio.hidden = itens.length > 0;
+      vazio.textContent = metrica.aoVivo
+        ? "Nenhum streamer ao vivo com esses filtros agora."
+        : "Ainda não há dados de seguidores para essa seleção.";
+    }
+  };
+
+  const ligarControlesMetricas = () => {
+    const chipsMetrica = document.getElementById("chipsMetrica");
+    chipsMetrica?.addEventListener("click", (evento) => {
+      const botao = evento.target.closest(".chip");
+      if (!botao) return;
+      estado.metrica = botao.dataset.metrica || "viewers-desc";
+      chipsMetrica
+        .querySelectorAll(".chip")
+        .forEach((chip) => chip.classList.toggle("is-active", chip === botao));
+      renderCategorias();
+      renderRanking();
+    });
+
+    const chipsCategoria = document.getElementById("chipsCategoria");
+    chipsCategoria?.addEventListener("click", (evento) => {
+      const botao = evento.target.closest(".chip");
+      if (!botao) return;
+      estado.categoria = botao.dataset.categoria || "todas";
+      renderCategorias();
+      renderRanking();
+    });
   };
 
   /* ---------- Notificações ---------- */
@@ -306,7 +452,7 @@
         if (notificacoesAtivas() && !avisados.has(chave)) {
           try {
             const notificacao = new Notification(`${item.streamer.nome} está ao vivo!`, {
-              body: item.live.titulo || "Clique para assistir na França RP",
+              body: item.live.titulo || "Clique para assistir",
               icon: item.live.avatar || undefined,
               tag: item.streamer.id,
             });
@@ -379,6 +525,8 @@
     renderStreamers();
     renderEstatisticas();
     renderAtualizacao();
+    renderCategorias();
+    renderRanking();
     const novas = compararAoVivo();
     avisar(novas);
   };
@@ -391,6 +539,8 @@
       console.warn("Não foi possível carregar o status das lives:", erro);
       const alvo = $("#updateTime");
       if (alvo) alvo.textContent = "status indisponível agora";
+      renderCategorias();
+      renderRanking();
     }
   };
 
@@ -418,6 +568,7 @@
     }
 
     renderStreamers();
+    ligarControlesMetricas();
     await carregarLive();
 
     window.setInterval(carregarLive, INTERVALO_ATUALIZACAO);
