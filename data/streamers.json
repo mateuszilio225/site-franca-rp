@@ -1,0 +1,90 @@
+{
+  "comunidade": {
+    "nome": "França RP",
+    "discord": "https://discord.gg/",
+    "atualizacaoAutomatica": true
+  },
+  "streamers": [
+    {
+      "id": "bryannsz1",
+      "nome": "Bryannsz1",
+      "plataforma": "kick",
+      "slug": "bryannsz1",
+      "url": "https://kick.com/bryannsz1",
+      "destaque": false
+    },
+    {
+      "id": "diparis7k",
+      "nome": "Diparis7k",
+      "plataforma": "kick",
+      "slug": "diparis7k",
+      "url": "https://kick.com/diparis7k",
+      "destaque": true
+    },
+    {
+      "id": "kroozzns",
+      "nome": "KroozzNS",
+      "plataforma": "kick",
+      "slug": "KroozzNS",
+      "url": "https://kick.com/KroozzNS",
+      "destaque": true
+    },
+    {
+      "id": "leozaoo7",
+      "nome": "Leozaoo7",
+      "plataforma": "kick",
+      "slug": "leozaoo7",
+      "url": "https://kick.com/leozaoo7",
+      "destaque": false
+    },
+    {
+      "id": "lizrp",
+      "nome": "LizRP",
+      "plataforma": "kick",
+      "slug": "lizrp",
+      "url": "https://kick.com/lizrp",
+      "destaque": true
+    },
+    {
+      "id": "pit9nn",
+      "nome": "Pit9nn",
+      "plataforma": "kick",
+      "slug": "pit9nn",
+      "url": "https://kick.com/pit9nn",
+      "destaque": true
+    },
+    {
+      "id": "vinimt7",
+      "nome": "Vinimt7",
+      "plataforma": "kick",
+      "slug": "vinimt7",
+      "url": "https://kick.com/vinimt7",
+      "destaque": false
+    },
+    {
+      "id": "vinaolek",
+      "nome": "Vinaolek",
+      "plataforma": "kick",
+      "slug": "vinaolek",
+      "url": "https://kick.com/vinaolek",
+      "destaque": true
+    },
+    {
+      "id": "mito7ofc",
+      "nome": "Mito7ofc",
+      "plataforma": "twitch",
+      "slug": "mito7ofc",
+      "url": "https://www.twitch.tv/mito7ofc",
+      "destaque": false
+    },
+    {
+      "id": "martinsgbr",
+      "nome": "martinsgbr_",
+      "plataforma": "x",
+      "slug": "martinsgbr_",
+      "url": "https://x.com/martinsgbr_",
+      "destaque": false,
+      "aoVivoSuportado": false
+    }
+  ]
+}

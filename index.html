@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>França RP — Comunidade ao vivo</title>
+  <meta name="description" content="Acompanhe os streamers da comunidade França RP. Veja quem está ao vivo na Kick e na Twitch, com links diretos e notificação quando a live começar." />
+  <meta name="theme-color" content="#080d18" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="França RP — Comunidade ao vivo" />
+  <meta property="og:description" content="Veja quem está ao vivo na Kick e na Twitch e não perca nenhuma live da comunidade." />
+  <meta property="og:image" content="assets/img/og-image.svg" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#ao-vivo">Pular para o conteúdo</a>
+
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="França RP — início">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48">
+            <path d="M24 4 6 12v11c0 11 7.6 19.2 18 21 10.4-1.8 18-10 18-21V12L24 4Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+            <path d="M24 15v18M16 23h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-text"><strong>FRANÇA</strong><em>RP</em></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <a href="#ao-vivo">Ao Vivo</a>
+        <a href="#streamers">Streamers</a>
+        <a href="#comunidade">Comunidade</a>
+        <a href="#sobre">Sobre</a>
+        <a class="btn btn-primary btn-sm nav-cta" data-discord href="https://discord.gg/" target="_blank" rel="noopener">Discord</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="btnNotifTop" type="button" aria-label="Ativar notificações de live" title="Ativar notificações de live">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M18 8a6 6 0 1 0-12 0c0 7-3 8-3 8h18s-3-1-3-8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M13.7 21a2 2 0 0 1-3.4 0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+          <span class="icon-btn-dot" hidden></span>
+        </button>
+
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-grid-lines" aria-hidden="true"></div>
+
+      <div class="container hero-inner">
+        <p class="eyebrow reveal">
+          <span class="dot"></span> Comunidade França RP • Kick &amp; Twitch
+        </p>
+
+        <h1 class="hero-title reveal">
+          Quem está <span class="gradient-text">ao vivo</span><br />
+          agora mesmo
+        </h1>
+
+        <p class="hero-sub reveal">
+          Todos os streamers da comunidade em um só lugar. Veja quem está
+          transmitindo, quantas pessoas estão assistindo e entre na live com um clique.
+        </p>
+
+        <div class="hero-actions reveal">
+          <a class="btn btn-primary" href="#ao-vivo">Ver quem está ao vivo</a>
+          <button class="btn btn-ghost" id="btnNotif" type="button">Ativar notificações</button>
+        </div>
+
+        <dl class="stats reveal">
+          <div>
+            <dt>Streamers</dt>
+            <dd id="statTotal">—</dd>
+          </div>
+          <div>
+            <dt>Ao vivo agora</dt>
+            <dd id="statAoVivo">—</dd>
+          </div>
+          <div>
+            <dt>Assistindo</dt>
+            <dd id="statEspectadores">—</dd>
+          </div>
+          <div>
+            <dt>Plataformas</dt>
+            <dd>2<span>+</span></dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="hero-skyline" aria-hidden="true">
+        <svg viewBox="0 0 1440 220" preserveAspectRatio="none">
+          <path d="M0 220V150h60v-30h40v30h70V96h50v54h60v-40h30v40h80V60h20v90h60v-50h45v50h70v-70h30v70h60v-30h50v30h70V120h40v100z" fill="currentColor" opacity=".35"/>
+          <path d="M0 220v-40h90v-25h50v25h90v-55h40v55h95v-30h40v30h110v-45h45v45h105v-20h40v20h110v-60h35v60h80v-25h45v25h90v-30h45v30h85v40z" fill="currentColor" opacity=".7"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- AO VIVO -->
+    <section class="section section-live" id="ao-vivo">
+      <div class="container">
+        <div class="section-head section-head-row reveal">
+          <div>
+            <p class="kicker">Ao Vivo</p>
+            <h2>Transmitindo agora</h2>
+          </div>
+          <p class="update-meta">
+            <span class="live-pulse" aria-hidden="true"></span>
+            <span id="updateTime">carregando…</span>
+          </p>
+        </div>
+
+        <div class="live-grid" id="gradeAoVivo" aria-live="polite" aria-busy="true"></div>
+
+        <div class="live-empty" id="vazioAoVivo" hidden>
+          <div class="live-empty-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <rect x="2.5" y="6" width="13" height="12" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.7"/>
+              <path d="M15.5 11l6-3.5v9L15.5 13" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Ninguém ao vivo neste momento</h3>
+          <p>Assim que alguém da comunidade começar uma live, ela aparece aqui automaticamente.</p>
+          <button class="btn btn-ghost btn-sm" id="btnNotifEmpty" type="button">Me avise quando começar</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- STREAMERS -->
+    <section class="section section-alt" id="streamers">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">Streamers</p>
+          <h2>Quem faz a comunidade</h2>
+          <p class="lead">Canais oficiais da França RP. Clique em qualquer card para abrir a live ou o perfil.</p>
+        </div>
+
+        <div class="chips reveal" id="filtros" role="group" aria-label="Filtrar por plataforma">
+          <button class="chip is-active" data-filtro="todos" type="button">Todos</button>
+          <button class="chip" data-filtro="kick" type="button">Kick</button>
+          <button class="chip" data-filtro="twitch" type="button">Twitch</button>
+          <button class="chip" data-filtro="x" type="button">X / Twitter</button>
+        </div>
+
+        <div class="streamers-grid" id="listaStreamers" aria-busy="true"></div>
+      </div>
+    </section>
+
+    <!-- COMUNIDADE -->
+    <section class="section" id="comunidade">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">Comunidade</p>
+          <h2>Feito para os fãs acompanharem</h2>
+        </div>
+
+        <div class="cards">
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="2.5" y="6" width="13" height="12" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 11l6-3.5v9L15.5 13" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Tudo em uma tela</h3>
+            <p>Status de Kick e Twitch no mesmo lugar. Quem está offline também aparece — assim você não perde o canal de ninguém.</p>
+          </article>
+
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M18 8a6 6 0 1 0-12 0c0 7-3 8-3 8h18s-3-1-3-8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M13.7 21a2 2 0 0 1-3.4 0" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+            </span>
+            <h3>Aviso quando abrir live</h3>
+            <p>Ative as notificações e receba um alerta no navegador no instante em que alguém da comunidade entrar ao vivo.</p>
+          </article>
+
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.1 0l2.4-2.4a5 5 0 0 0-7.1-7.1L11 5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M14 11a5 5 0 0 0-7.1 0L4.5 13.4a5 5 0 0 0 7.1 7.1L13 19" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+            </span>
+            <h3>Link direto pro canal</h3>
+            <p>Sem intermediários: cada card leva direto para o canal do streamer na Kick, Twitch ou X.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section section-alt" id="sobre">
+      <div class="container narrow">
+        <div class="section-head reveal">
+          <p class="kicker">Sobre</p>
+          <h2>O que é a França RP</h2>
+          <p class="lead">
+            Uma comunidade de streamers e amigos que jogam juntos e transmitem quase todo dia.
+            Este site existe para os fãs não perderem nada: um painel simples, leve e sempre atualizado.
+          </p>
+        </div>
+
+        <div class="about-grid reveal">
+          <div>
+            <h3>Atualização automática</h3>
+            <p>O status das lives é verificado a cada poucos minutos. A página também se atualiza sozinha enquanto você está nela.</p>
+          </div>
+          <div>
+            <h3>Sem conta, sem cadastro</h3>
+            <p>Nada de login. Você só abre o site, vê quem está ao vivo e clica para assistir.</p>
+          </div>
+          <div>
+            <h3>Quer entrar na lista?</h3>
+            <p>Se você faz parte da comunidade e quer seu canal aqui, é só pedir no Discord.</p>
+          </div>
+        </div>
+
+        <div class="faq" style="margin-top: 40px;">
+          <details>
+            <summary>As notificações chegam com o site fechado?</summary>
+            <p>Não. O aviso aparece enquanto o site estiver aberto em alguma aba (pode ficar em segundo plano). Para receber push com o navegador fechado seria necessário um servidor de notificações.</p>
+          </details>
+          <details>
+            <summary>Por que o canal do X não mostra "ao vivo"?</summary>
+            <p>O X não disponibiliza uma API pública de status de live. O perfil aparece na lista como link direto, sem indicador de transmissão.</p>
+          </details>
+          <details>
+            <summary>Com que frequência o status muda?</summary>
+            <p>O painel verifica os canais a cada 5 minutos e o site consulta esse resultado a cada 60 segundos.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+      <div class="container">
+        <div class="cta-box reveal">
+          <h2>Não perca nenhuma live</h2>
+          <p>Ative as notificações e receba o aviso no navegador sempre que alguém da comunidade abrir live.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" id="btnNotifCta" type="button">Ativar notificações</button>
+            <a class="btn btn-ghost" data-discord href="https://discord.gg/" target="_blank" rel="noopener">Entrar no Discord</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a class="brand" href="#inicio">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M24 4 6 12v11c0 11 7.6 19.2 18 21 10.4-1.8 18-10 18-21V12L24 4Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M24 15v18M16 23h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </span>
+          <span class="brand-text"><strong>FRANÇA</strong><em>RP</em></span>
+        </a>
+        <p>Comunidade de streamers. Site não oficial, feito pelos fãs para os fãs.</p>
+      </div>
+
+      <nav class="footer-links" aria-label="Links do rodapé">
+        <a href="#ao-vivo">Ao Vivo</a>
+        <a href="#streamers">Streamers</a>
+        <a href="#comunidade">Comunidade</a>
+        <a href="#sobre">Sobre</a>
+      </nav>
+
+      <div class="footer-meta">
+        <p>Não afiliado à Kick, Twitch ou X.</p>
+        <p>&copy; <span id="year">2026</span> França RP. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toasts" id="toasts" aria-live="polite" aria-atomic="false"></div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
