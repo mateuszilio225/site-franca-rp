@@ -17,7 +17,7 @@ permissions:
 
 concurrency:
   group: status-lives
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   atualizar:
@@ -47,9 +47,23 @@ jobs:
             exit 0
           fi
 
-          git add data/live.json
-          git commit -m "chore: atualiza status das lives"
+          # O status é sempre "o mais recente vence": sincroniza com a main e
+          # cria o commit em cima dela, sem merge/rebase (evita conflito quando
+          # duas execuções se cruzam).
+          for tentativa in 1 2 3; do
+            git fetch --quiet origin main
+            git reset --soft origin/main
+            git add data/live.json
+            git commit -m "chore: atualiza status das lives" || true
 
-          # Se outra execução (ou um push manual) chegou antes, rebase e tenta de novo.
-          git pull --rebase --autostash origin main
-          git push
+            if git push --quiet origin HEAD:main; then
+              echo "Status publicado (tentativa $tentativa)."
+              exit 0
+            fi
+
+            echo "Push recusado, tentando novamente em 5s..."
+            sleep 5
+          done
+
+          echo "Não foi possível publicar o status desta vez."
+          exit 1
