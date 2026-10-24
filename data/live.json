@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-10-24T21:32:41.214Z",
+  "geradoEm": "2026-10-24T23:41:18.807Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -31,7 +31,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 111662,
+      "seguidores": 111664,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -47,24 +47,24 @@
     },
     "lizrp": {
       "plataforma": "kick",
-      "aoVivo": false,
-      "espectadores": 0,
-      "titulo": "",
-      "categoria": "",
-      "iniciadoEm": null,
+      "aoVivo": true,
+      "espectadores": 91,
+      "titulo": "SABADAO - ep115",
+      "categoria": "Just Chatting",
+      "iniciadoEm": "2026-10-24T23:31:19.000Z",
       "thumb": "",
-      "seguidores": 3706,
+      "seguidores": 3709,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
       "plataforma": "kick",
       "aoVivo": true,
-      "espectadores": 90,
+      "espectadores": 116,
       "titulo": "(CPXGG) 19/25!! 03 da frança!  🇫🇷",
-      "categoria": "Call of Duty: Modern Warfare 4",
+      "categoria": "Grand Theft Auto V (GTA)",
       "iniciadoEm": "2026-10-24T19:34:50.000Z",
       "thumb": "https://stream.kick.com/thumbnails/livestream/134075539/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 3755,
+      "seguidores": 3754,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
