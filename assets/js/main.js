@@ -17,6 +17,7 @@
     filtro: "todos",
     metrica: "viewers-desc",
     categoria: "todas",
+    metricaInicialDefinida: false,
     aoVivoAntes: new Set(),
     primeiraCarga: true,
   };
@@ -520,7 +521,22 @@
     return novas;
   };
 
+  const definirMetricaInicial = () => {
+    if (estado.metricaInicialDefinida) return;
+    estado.metricaInicialDefinida = true;
+
+    // Ninguém ao vivo? Mostra o ranking por seguidores para a seção não ficar vazia.
+    if (aoVivo().length > 0) return;
+
+    estado.metrica = "seguidores-desc";
+    const chips = document.getElementById("chipsMetrica");
+    chips?.querySelectorAll(".chip").forEach((chip) => {
+      chip.classList.toggle("is-active", chip.dataset.metrica === estado.metrica);
+    });
+  };
+
   const atualizarInterface = () => {
+    definirMetricaInicial();
     renderAoVivo();
     renderStreamers();
     renderEstatisticas();
