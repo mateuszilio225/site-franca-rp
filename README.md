@@ -89,6 +89,11 @@ Para atualizar o status manualmente:
 node scripts/update-live.mjs
 ```
 
+### Cache do GitHub Pages
+
+O Pages guarda CSS e JS por ~10 minutos. Depois de mexer em `style.css` ou `main.js`,
+troque o `?v=2` no `index.html` por `?v=3`, `?v=4`… para os visitantes receberem a versão nova na hora.
+
 ## Twitch (opcional)
 
 A Kick funciona sem nenhuma configuração. Para a Twitch, crie um app em
