@@ -65,6 +65,66 @@
     return resposta.json();
   };
 
+  /** "2026-10-23 17:15:06" (UTC) -> ISO */
+  const paraIso = (valor) => {
+    if (!valor) return null;
+    const normalizado = String(valor).replace(" ", "T");
+    const comFuso = /Z$|[+-]\d{2}:\d{2}$/.test(normalizado) ? normalizado : `${normalizado}Z`;
+    const data = new Date(comFuso);
+    return Number.isNaN(data.getTime()) ? null : data.toISOString();
+  };
+
+  /**
+   * A API da Kick libera CORS para o site, então dá para consultar o status
+   * ao vivo direto do navegador — sem esperar o GitHub Actions.
+   */
+  const buscarKickDireto = async (streamer) => {
+    const slug = streamer.slug || streamer.id;
+    const resposta = await fetch(`https://kick.com/api/v2/channels/${encodeURIComponent(slug)}`, {
+      headers: { Accept: "application/json" },
+      cache: "no-store",
+      signal: AbortSignal.timeout(12000),
+    });
+
+    if (!resposta.ok) throw new Error(`Kick HTTP ${resposta.status}`);
+
+    const dados = await resposta.json();
+    const live = dados?.livestream;
+
+    return {
+      plataforma: "kick",
+      aoVivo: Boolean(live),
+      espectadores: Number(live?.viewer_count ?? 0),
+      titulo: live?.session_title ?? "",
+      categoria: live?.categories?.[0]?.name ?? "",
+      iniciadoEm: paraIso(live?.start_time),
+      thumb: live?.thumbnail?.url ?? "",
+      seguidores: Number(dados?.followers_count ?? 0),
+      avatar: dados?.user?.profile_pic ?? "",
+    };
+  };
+
+  const atualizarKickAoVivo = async () => {
+    const canais = (estado.config?.streamers ?? []).filter(
+      (streamer) => streamer.plataforma === "kick" && streamer.aoVivoSuportado !== false
+    );
+
+    const resultados = await Promise.allSettled(
+      canais.map(async (streamer) => [streamer.id, await buscarKickDireto(streamer)])
+    );
+
+    let atualizados = 0;
+
+    for (const resultado of resultados) {
+      if (resultado.status !== "fulfilled") continue;
+      const [id, dados] = resultado.value;
+      estado.live.streamers[id] = { ...(estado.live.streamers[id] ?? {}), ...dados };
+      atualizados += 1;
+    }
+
+    return atualizados;
+  };
+
   const streamerPorId = (id) =>
     (estado.config?.streamers ?? []).find((streamer) => streamer.id === id);
 
@@ -210,6 +270,12 @@
   const renderAtualizacao = () => {
     const alvo = $("#updateTime");
     if (!alvo) return;
+
+    if (estado.live?.direto) {
+      alvo.textContent = "atualizado agora • direto da Kick";
+      return;
+    }
+
     const gerado = estado.live?.geradoEm ? new Date(estado.live.geradoEm) : null;
 
     if (!gerado || Number.isNaN(gerado.getTime())) {
@@ -548,16 +614,28 @@
   };
 
   const carregarLive = async () => {
+    // 1) Arquivo gerado pelo GitHub Actions: serve de base e cobre a Twitch.
     try {
       estado.live = await buscarJson(ARQUIVO_LIVE);
-      atualizarInterface();
     } catch (erro) {
-      console.warn("Não foi possível carregar o status das lives:", erro);
-      const alvo = $("#updateTime");
-      if (alvo) alvo.textContent = "status indisponível agora";
-      renderCategorias();
-      renderRanking();
+      console.warn("Não foi possível carregar data/live.json:", erro);
+      estado.live = { geradoEm: null, streamers: {} };
     }
+
+    if (!estado.live.streamers) estado.live.streamers = {};
+
+    // 2) Kick consultada direto no navegador: status em tempo real.
+    let direto = false;
+    try {
+      direto = (await atualizarKickAoVivo()) > 0;
+    } catch (erro) {
+      console.warn("Consulta direta à Kick indisponível:", erro);
+    }
+
+    estado.live.direto = direto;
+    if (direto) estado.live.geradoEm = new Date().toISOString();
+
+    atualizarInterface();
   };
 
   const iniciar = async () => {

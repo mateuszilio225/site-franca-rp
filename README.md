@@ -5,18 +5,24 @@ Atualiza sozinho, avisa no navegador quando alguém entra no ar e leva direto ao
 
 ## Como funciona
 
+Duas camadas:
+
+1. **Tempo real (Kick):** a API da Kick libera CORS para o site, então o próprio navegador
+   consulta cada canal a cada 60 segundos. É isso que deixa o status quase instantâneo.
+2. **Backup + Twitch:** um GitHub Action roda `scripts/update-live.mjs` a cada 5 minutos e
+   grava `data/live.json`. Serve de base para o primeiro carregamento e é a única fonte
+   para os canais da Twitch (que exigem credenciais de servidor).
+
 ```
 data/streamers.json   →  lista de streamers (você edita isso)
         ↓
-GitHub Action (a cada 5 min) → roda scripts/update-live.mjs
-        ↓
-data/live.json        →  status gerado automaticamente (não editar à mão)
-        ↓
-site (index.html)     →  consulta esse arquivo a cada 60s e monta as telas
+GitHub Action (5 min) →  scripts/update-live.mjs  →  data/live.json
+        ↓                                              ↓
+site (index.html)  ←  consulta a Kick direto no navegador (tempo real) + data/live.json
 ```
 
-O navegador não consegue consultar Kick/Twitch direto (bloqueio de CORS), por isso o status
-é gerado por um script no GitHub Actions e o site só lê o resultado.
+Se a Kick bloquear a consulta direta (rede do visitante), o site cai automaticamente para
+os dados do `data/live.json` — nada quebra.
 
 ## Estrutura
 
