@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-10-27T05:48:35.668Z",
+  "geradoEm": "2026-10-27T11:08:39.079Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -25,13 +25,13 @@
     },
     "kroozzns": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 697,
-      "titulo": "COMEÇANDO A SEMANA COM O PÉ DIREITO!  -  DIA 05 DO FOCO 🏆",
-      "categoria": "Counter-Strike 2",
-      "iniciadoEm": "2026-10-26T17:40:22.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/134401168/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 111718,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 111720,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -53,7 +53,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 3733,
+      "seguidores": 3734,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
@@ -64,7 +64,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 3788,
+      "seguidores": 3787,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
@@ -91,13 +91,13 @@
     },
     "vinaolek": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 111,
-      "titulo": "CAMPEÃO GOAT MASTERS! !PIX !DISCORD",
-      "categoria": "Grand Theft Auto V (GTA)",
-      "iniciadoEm": "2026-10-27T00:24:04.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/134466774/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 27628,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 27634,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
     "mito7ofc": {
