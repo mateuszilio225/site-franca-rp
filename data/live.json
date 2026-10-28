@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-10-28T00:27:14.028Z",
+  "geradoEm": "2026-10-28T06:12:07.095Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -25,13 +25,13 @@
     },
     "kroozzns": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 988,
-      "titulo": "TERMINANDO A CAMPANHA DO COD & RP! -  DIA 06 DO FOCO 🏆",
-      "categoria": "Grand Theft Auto V (GTA)",
-      "iniciadoEm": "2026-10-27T17:24:49.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/134567755/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 111737,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 111759,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -47,13 +47,13 @@
     },
     "lizrp": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 74,
-      "titulo": "(CPX) LIZ DA FRANÇA 🇫🇷 - ep117",
-      "categoria": "Grand Theft Auto V (GTA)",
-      "iniciadoEm": "2026-10-27T19:13:39.000Z",
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 3741,
+      "seguidores": 3745,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
@@ -64,18 +64,18 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 3790,
+      "seguidores": 3791,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 11,
-      "titulo": "O MAIS SACANA - FRANÇA PIT9 - 🇫🇷 cpxgg❗Pix❗Sociais ❗Comandos",
-      "categoria": "Grand Theft Auto V (GTA)",
-      "iniciadoEm": "2026-10-27T22:13:57.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/134614246/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 3703,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 3704,
       "avatar": "https://files.kick.com/images/user/29375164/profile_image/conversion/9a75f9f4-933a-4f0d-9c28-c2b14f8bfd5e-fullsize.webp"
     },
     "vinimt7": {
@@ -91,13 +91,13 @@
     },
     "vinaolek": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 96,
-      "titulo": "CAMPEÃO GOAT MASTERS! !PIX !DISCORD",
-      "categoria": "Grand Theft Auto V (GTA)",
-      "iniciadoEm": "2026-10-27T21:54:50.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/134611071/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 27639,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 27652,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
     "mito7ofc": {
