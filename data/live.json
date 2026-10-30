@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-10-30T06:16:22.082Z",
+  "geradoEm": "2026-10-30T13:12:56.641Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -20,17 +20,17 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 5659,
+      "seguidores": 5658,
       "avatar": "https://files.kick.com/images/user/72602376/profile_image/conversion/8e2dbdf3-7e20-4d4b-b720-83c603b5c818-fullsize.webp"
     },
     "kroozzns": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 762,
-      "titulo": "GG ILHA DE ONTEM -  DIA 08 DO FOCO 🏆",
-      "categoria": "Grand Theft Auto V (GTA)",
-      "iniciadoEm": "2026-10-29T17:52:21.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/134928260/thumb0/video_thumbnail/thumb0.jpg",
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
       "seguidores": 111904,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
@@ -47,13 +47,13 @@
     },
     "lizrp": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 42,
-      "titulo": "(CPX) LIZ DA FRANÇA 🇫🇷 - ep119",
-      "categoria": "Grand Theft Auto V (GTA)",
-      "iniciadoEm": "2026-10-29T19:10:42.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/134942270/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 3764,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 3765,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
@@ -97,7 +97,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 27681,
+      "seguidores": 27679,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
     "mito7ofc": {
