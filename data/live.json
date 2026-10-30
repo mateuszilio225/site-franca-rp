@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-10-30T00:24:06.743Z",
+  "geradoEm": "2026-10-30T06:16:22.082Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -14,24 +14,24 @@
     },
     "diparis7k": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 38,
-      "titulo": "DIA DE QUALIFY 🇫🇷!! !pixgg !discord",
-      "categoria": "Grand Theft Auto V (GTA)",
-      "iniciadoEm": "2026-10-29T15:41:12.000Z",
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 5657,
+      "seguidores": 5659,
       "avatar": "https://files.kick.com/images/user/72602376/profile_image/conversion/8e2dbdf3-7e20-4d4b-b720-83c603b5c818-fullsize.webp"
     },
     "kroozzns": {
       "plataforma": "kick",
       "aoVivo": true,
-      "espectadores": 1028,
-      "titulo": "QUALIFY DO PRIME! GG ILHA DE ONTEM -  DIA 08 DO FOCO 🏆",
+      "espectadores": 762,
+      "titulo": "GG ILHA DE ONTEM -  DIA 08 DO FOCO 🏆",
       "categoria": "Grand Theft Auto V (GTA)",
       "iniciadoEm": "2026-10-29T17:52:21.000Z",
       "thumb": "https://stream.kick.com/thumbnails/livestream/134928260/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 111870,
+      "seguidores": 111904,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -42,29 +42,29 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 735,
+      "seguidores": 736,
       "avatar": "https://files.kick.com/images/user/21274838/profile_image/conversion/8d7cd1b9-6eea-4929-a1d8-ed4a05e44412-fullsize.webp"
     },
     "lizrp": {
       "plataforma": "kick",
       "aoVivo": true,
-      "espectadores": 53,
+      "espectadores": 42,
       "titulo": "(CPX) LIZ DA FRANÇA 🇫🇷 - ep119",
       "categoria": "Grand Theft Auto V (GTA)",
       "iniciadoEm": "2026-10-29T19:10:42.000Z",
       "thumb": "https://stream.kick.com/thumbnails/livestream/134942270/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 3759,
+      "seguidores": 3764,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 88,
-      "titulo": "(CPXGG) 23/25!! 03 da frança!  🇫🇷",
-      "categoria": "Grand Theft Auto V (GTA)",
-      "iniciadoEm": "2026-10-29T20:29:05.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/134955467/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 3804,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 3807,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
@@ -97,7 +97,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 27671,
+      "seguidores": 27681,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
     "mito7ofc": {
