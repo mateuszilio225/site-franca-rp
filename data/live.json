@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-01T18:57:57.113Z",
+  "geradoEm": "2026-11-01T22:42:36.080Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -14,13 +14,13 @@
     },
     "diparis7k": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 79,
-      "titulo": "FOCO MAXIMO 🇫🇷  !pixgg !discord",
-      "categoria": "Grand Theft Auto V (GTA)",
-      "iniciadoEm": "2026-11-01T16:40:53.000Z",
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 5694,
+      "seguidores": 5700,
       "avatar": "https://files.kick.com/images/user/72602376/profile_image/conversion/8e2dbdf3-7e20-4d4b-b720-83c603b5c818-fullsize.webp"
     },
     "kroozzns": {
@@ -31,7 +31,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 111970,
+      "seguidores": 111972,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -97,7 +97,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 27716,
+      "seguidores": 27717,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
     "mito7ofc": {
