@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-02T19:25:48.147Z",
+  "geradoEm": "2026-11-03T01:44:40.309Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -14,24 +14,24 @@
     },
     "diparis7k": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 40,
-      "titulo": "FOCO MAXIMO 🇫🇷  !pixgg !discord",
-      "categoria": "Grand Theft Auto V (GTA)",
-      "iniciadoEm": "2026-11-02T16:49:02.000Z",
-      "thumb": "",
-      "seguidores": 5710,
-      "avatar": "https://files.kick.com/images/user/72602376/profile_image/conversion/8e2dbdf3-7e20-4d4b-b720-83c603b5c818-fullsize.webp"
-    },
-    "kroozzns": {
-      "plataforma": "kick",
       "aoVivo": false,
       "espectadores": 0,
       "titulo": "",
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 111976,
+      "seguidores": 5710,
+      "avatar": "https://files.kick.com/images/user/72602376/profile_image/conversion/8e2dbdf3-7e20-4d4b-b720-83c603b5c818-fullsize.webp"
+    },
+    "kroozzns": {
+      "plataforma": "kick",
+      "aoVivo": true,
+      "espectadores": 901,
+      "titulo": "LIVEZONA NO FERIADO! ATRASADO PORÉM FOCADO 🏆",
+      "categoria": "Grand Theft Auto V (GTA)",
+      "iniciadoEm": "2026-11-03T01:25:16.000Z",
+      "thumb": "https://stream.kick.com/thumbnails/livestream/135721880/thumb0/video_thumbnail/thumb0.jpg",
+      "seguidores": 111975,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -48,34 +48,34 @@
     "lizrp": {
       "plataforma": "kick",
       "aoVivo": true,
-      "espectadores": 24,
+      "espectadores": 43,
       "titulo": "(CPX) LIZ DA FRANÇA 🇫🇷 - ep120",
-      "categoria": "League of Legends",
+      "categoria": "Grand Theft Auto V (GTA)",
       "iniciadoEm": "2026-11-02T19:07:47.000Z",
       "thumb": "https://stream.kick.com/thumbnails/livestream/135663389/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 3827,
+      "seguidores": 3830,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
       "plataforma": "kick",
       "aoVivo": true,
-      "espectadores": 158,
+      "espectadores": 77,
       "titulo": "(CPXGG) 03 da frança!  🇫🇷",
       "categoria": "Grand Theft Auto V (GTA)",
       "iniciadoEm": "2026-11-02T18:34:28.000Z",
       "thumb": "",
-      "seguidores": 3845,
+      "seguidores": 3859,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
       "plataforma": "kick",
-      "aoVivo": false,
-      "espectadores": 0,
-      "titulo": "",
-      "categoria": "",
-      "iniciadoEm": null,
-      "thumb": "",
-      "seguidores": 3717,
+      "aoVivo": true,
+      "espectadores": 6,
+      "titulo": "rs - FRANÇA PIT9 - 🇫🇷 cpxgg❗Pix❗Sociais ❗Comandos",
+      "categoria": "Grand Theft Auto V (GTA)",
+      "iniciadoEm": "2026-11-02T22:41:56.000Z",
+      "thumb": "https://stream.kick.com/thumbnails/livestream/135696903/thumb0/video_thumbnail/thumb0.jpg",
+      "seguidores": 3719,
       "avatar": "https://files.kick.com/images/user/29375164/profile_image/conversion/c7f38e37-36fe-49a8-851a-7f43034153b8-fullsize.webp"
     },
     "vinimt7": {
@@ -86,18 +86,18 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 3651,
+      "seguidores": 3652,
       "avatar": "https://files.kick.com/images/user/67964558/profile_image/conversion/aabeb3c1-109e-45e7-8f6a-c23e3f218404-fullsize.webp"
     },
     "vinaolek": {
       "plataforma": "kick",
-      "aoVivo": false,
-      "espectadores": 0,
-      "titulo": "",
-      "categoria": "",
-      "iniciadoEm": null,
+      "aoVivo": true,
+      "espectadores": 128,
+      "titulo": "TARDOU MAS NÃO FALHOU! !PIX !DISCORD",
+      "categoria": "Grand Theft Auto V (GTA)",
+      "iniciadoEm": "2026-11-03T01:20:18.000Z",
       "thumb": "",
-      "seguidores": 27716,
+      "seguidores": 27715,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
     "mito7ofc": {
