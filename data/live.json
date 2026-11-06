@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-06T18:29:04.874Z",
+  "geradoEm": "2026-11-06T23:28:28.194Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -14,24 +14,24 @@
     },
     "diparis7k": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 28,
-      "titulo": "FOCO MAXIMO 🇫🇷  !pixgg !discord",
-      "categoria": "Grand Theft Auto V (GTA)",
-      "iniciadoEm": "2026-11-06T15:57:57.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/136333157/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 5731,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 5733,
       "avatar": "https://files.kick.com/images/user/72602376/profile_image/conversion/8e2dbdf3-7e20-4d4b-b720-83c603b5c818-fullsize.webp"
     },
     "kroozzns": {
       "plataforma": "kick",
       "aoVivo": true,
-      "espectadores": 504,
+      "espectadores": 1005,
       "titulo": "SEXTOU! REACT PRA COMEÇAR, RP e APOSTADO CS2 NA MADRUGADA!  FOCO DIA 11 🏆",
-      "categoria": "Roblox",
+      "categoria": "Grand Theft Auto V (GTA)",
       "iniciadoEm": "2026-11-06T17:33:02.000Z",
       "thumb": "",
-      "seguidores": 112469,
+      "seguidores": 112502,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -47,24 +47,24 @@
     },
     "lizrp": {
       "plataforma": "kick",
-      "aoVivo": false,
-      "espectadores": 0,
-      "titulo": "",
-      "categoria": "",
-      "iniciadoEm": null,
-      "thumb": "",
-      "seguidores": 4153,
+      "aoVivo": true,
+      "espectadores": 42,
+      "titulo": "(CPX) DIA DE T1 - ep124",
+      "categoria": "Just Chatting",
+      "iniciadoEm": "2026-11-06T21:14:24.000Z",
+      "thumb": "https://stream.kick.com/thumbnails/livestream/136388027/thumb0/video_thumbnail/thumb0.jpg",
+      "seguidores": 4155,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
       "plataforma": "kick",
-      "aoVivo": false,
-      "espectadores": 0,
-      "titulo": "",
-      "categoria": "",
-      "iniciadoEm": null,
-      "thumb": "",
-      "seguidores": 3913,
+      "aoVivo": true,
+      "espectadores": 51,
+      "titulo": "(CPXGG) 03 da frança!  🇫🇷",
+      "categoria": "Grand Theft Auto V (GTA)",
+      "iniciadoEm": "2026-11-06T19:57:29.000Z",
+      "thumb": "https://stream.kick.com/thumbnails/livestream/136374489/thumb0/video_thumbnail/thumb0.jpg",
+      "seguidores": 3919,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
@@ -97,7 +97,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 27817,
+      "seguidores": 27818,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
     "mito7ofc": {
