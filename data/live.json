@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-07T10:10:17.416Z",
+  "geradoEm": "2026-11-07T16:28:33.986Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -31,7 +31,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 112607,
+      "seguidores": 112614,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -47,13 +47,13 @@
     },
     "lizrp": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 39,
-      "titulo": "(CPX) DIA DE T1 - ep124",
-      "categoria": "Just Chatting",
-      "iniciadoEm": "2026-11-06T21:14:24.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/136388027/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 4157,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 4159,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
@@ -64,7 +64,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 3926,
+      "seguidores": 3927,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
