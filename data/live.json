@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-07T03:08:36.362Z",
+  "geradoEm": "2026-11-07T10:10:17.416Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -25,13 +25,13 @@
     },
     "kroozzns": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 1258,
-      "titulo": "SEXTOU! REACT PRA COMEÇAR, RP e APOSTADO CS2 NA MADRUGADA!  FOCO DIA 11 🏆",
-      "categoria": "Grand Theft Auto V (GTA)",
-      "iniciadoEm": "2026-11-06T17:33:02.000Z",
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 112577,
+      "seguidores": 112607,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -48,22 +48,22 @@
     "lizrp": {
       "plataforma": "kick",
       "aoVivo": true,
-      "espectadores": 35,
+      "espectadores": 39,
       "titulo": "(CPX) DIA DE T1 - ep124",
-      "categoria": "Grand Theft Auto V (GTA)",
+      "categoria": "Just Chatting",
       "iniciadoEm": "2026-11-06T21:14:24.000Z",
       "thumb": "https://stream.kick.com/thumbnails/livestream/136388027/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 4156,
+      "seguidores": 4157,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 30,
-      "titulo": "(CPXGG) 03 da frança!  🇫🇷",
-      "categoria": "Grand Theft Auto V (GTA)",
-      "iniciadoEm": "2026-11-06T19:57:29.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/136374489/thumb0/video_thumbnail/thumb0.jpg",
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
       "seguidores": 3926,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
@@ -97,7 +97,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 27819,
+      "seguidores": 27818,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
     "mito7ofc": {
