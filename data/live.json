@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-09T00:59:51.466Z",
+  "geradoEm": "2026-11-09T07:52:44.180Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -31,7 +31,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 112633,
+      "seguidores": 112665,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -47,13 +47,13 @@
     },
     "lizrp": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 55,
-      "titulo": "(CPX) DIA DE T1!! WATCHPARTY SEMIFINAL WORLDS 2026 - ep126",
-      "categoria": "Just Chatting",
-      "iniciadoEm": "2026-11-08T21:58:55.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/136772878/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 4166,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 4170,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
@@ -64,7 +64,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 3930,
+      "seguidores": 3932,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
