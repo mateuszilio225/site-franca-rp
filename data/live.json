@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-10T01:40:40.995Z",
+  "geradoEm": "2026-11-10T08:51:15.425Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -25,13 +25,13 @@
     },
     "kroozzns": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 1389,
-      "titulo": "DOMINANDO AS RUAS DE ROB RUN! -❗pix",
-      "categoria": "Grand Theft Auto V (GTA)",
-      "iniciadoEm": "2026-11-09T23:19:35.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/136954702/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 112703,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 112799,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -42,7 +42,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 759,
+      "seguidores": 761,
       "avatar": "https://files.kick.com/images/user/21274838/profile_image/conversion/8d7cd1b9-6eea-4929-a1d8-ed4a05e44412-fullsize.webp"
     },
     "lizrp": {
@@ -58,24 +58,24 @@
     },
     "mikotofps": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 49,
-      "titulo": "(CPXGG) 03 da frança!  🇫🇷",
-      "categoria": "Grand Theft Auto V (GTA)",
-      "iniciadoEm": "2026-11-09T18:10:01.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/136903750/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 3937,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 3939,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 15,
-      "titulo": "SEMANA ABENÇOADA  🇫🇷 - FRANÇA PIT9 - 🇫🇷 cpxgg❗Pix❗Sociais ❗Comandos",
-      "categoria": "Grand Theft Auto V (GTA)",
-      "iniciadoEm": "2026-11-09T21:07:01.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/136933828/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 3746,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 3750,
       "avatar": "https://files.kick.com/images/user/29375164/profile_image/conversion/c7f38e37-36fe-49a8-851a-7f43034153b8-fullsize.webp"
     },
     "vinimt7": {
@@ -97,7 +97,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 27816,
+      "seguidores": 27821,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
     "mito7ofc": {
