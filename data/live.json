@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-11T08:45:58.160Z",
+  "geradoEm": "2026-11-11T16:39:48.562Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -14,12 +14,12 @@
     },
     "diparis7k": {
       "plataforma": "kick",
-      "aoVivo": false,
-      "espectadores": 0,
-      "titulo": "",
-      "categoria": "",
-      "iniciadoEm": null,
-      "thumb": "",
+      "aoVivo": true,
+      "espectadores": 22,
+      "titulo": "FOCO MAXIMO 🇫🇷  !pixgg !discord",
+      "categoria": "Grand Theft Auto V (GTA)",
+      "iniciadoEm": "2026-11-11T16:26:43.000Z",
+      "thumb": "https://stream.kick.com/thumbnails/livestream/137246698/thumb0/video_thumbnail/thumb0.jpg",
       "seguidores": 5751,
       "avatar": "https://files.kick.com/images/user/72602376/profile_image/conversion/8e2dbdf3-7e20-4d4b-b720-83c603b5c818-fullsize.webp"
     },
@@ -31,7 +31,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 112905,
+      "seguidores": 112907,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -47,13 +47,13 @@
     },
     "lizrp": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 28,
-      "titulo": "(CPX) APRENDENDO A JOGAR EM OUTRA LANE - ep127",
-      "categoria": "League of Legends",
-      "iniciadoEm": "2026-11-10T22:17:10.000Z",
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 4179,
+      "seguidores": 4185,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
