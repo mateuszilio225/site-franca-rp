@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-11T23:05:51.345Z",
+  "geradoEm": "2026-11-12T03:47:23.707Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -26,12 +26,12 @@
     "kroozzns": {
       "plataforma": "kick",
       "aoVivo": true,
-      "espectadores": 833,
-      "titulo": "MOUSE NOVO & GRIND ROB RUN  e ULTIMA SEMANA DO RP? FOCO 🏆",
-      "categoria": "Rob Run",
+      "espectadores": 1181,
+      "titulo": "MOUSE NOVO & ULTIMA SEMANA DO RP? FOCO 🏆",
+      "categoria": "Grand Theft Auto V (GTA)",
       "iniciadoEm": "2026-11-11T20:25:14.000Z",
       "thumb": "https://stream.kick.com/thumbnails/livestream/137288837/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 112930,
+      "seguidores": 112973,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -48,23 +48,23 @@
     "lizrp": {
       "plataforma": "kick",
       "aoVivo": true,
-      "espectadores": 34,
+      "espectadores": 41,
       "titulo": "(CPX) NOVO GUMA ON - ep127",
-      "categoria": "League of Legends",
+      "categoria": "Grand Theft Auto V (GTA)",
       "iniciadoEm": "2026-11-11T21:12:51.000Z",
       "thumb": "https://stream.kick.com/thumbnails/livestream/137296797/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 4186,
+      "seguidores": 4184,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 48,
-      "titulo": "Grindando Rob run !  🇫🇷",
-      "categoria": "Rob Run",
-      "iniciadoEm": "2026-11-11T18:39:06.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/137269909/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 3943,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 3947,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
@@ -75,7 +75,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 3753,
+      "seguidores": 3754,
       "avatar": "https://files.kick.com/images/user/29375164/profile_image/conversion/c7f38e37-36fe-49a8-851a-7f43034153b8-fullsize.webp"
     },
     "vinimt7": {
@@ -97,7 +97,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 27828,
+      "seguidores": 27831,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
     "mito7ofc": {
