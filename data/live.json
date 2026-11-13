@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-13T00:44:29.863Z",
+  "geradoEm": "2026-11-13T07:25:03.733Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -26,12 +26,12 @@
     "kroozzns": {
       "plataforma": "kick",
       "aoVivo": true,
-      "espectadores": 2158,
-      "titulo": "JOGANDO QUALIFY COM O TIME DO LAST DANCE & GRIND ROB RUN!! FOCO 🏆",
-      "categoria": "Grand Theft Auto V (GTA)",
+      "espectadores": 460,
+      "titulo": "GRINDANDO ROB RUN!! FOCO 🏆",
+      "categoria": "Rob Run",
       "iniciadoEm": "2026-11-12T17:54:37.000Z",
       "thumb": "https://stream.kick.com/thumbnails/livestream/137449212/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 113057,
+      "seguidores": 113115,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -42,10 +42,32 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 761,
+      "seguidores": 762,
       "avatar": "https://files.kick.com/images/user/21274838/profile_image/conversion/8d7cd1b9-6eea-4929-a1d8-ed4a05e44412-fullsize.webp"
     },
     "lizrp": {
+      "plataforma": "kick",
+      "aoVivo": true,
+      "espectadores": 21,
+      "titulo": "LIVE SECRETA DA MADRUGADA! GRIND LEAGUE OF LEGENDS ep128",
+      "categoria": "League of Legends",
+      "iniciadoEm": "2026-11-13T05:42:44.000Z",
+      "thumb": "https://stream.kick.com/thumbnails/livestream/137559653/thumb0/video_thumbnail/thumb0.jpg",
+      "seguidores": 4184,
+      "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
+    },
+    "mikotofps": {
+      "plataforma": "kick",
+      "aoVivo": true,
+      "espectadores": 24,
+      "titulo": "Grindando Rob run !  🇫🇷",
+      "categoria": "Rob Run",
+      "iniciadoEm": "2026-11-12T19:35:32.000Z",
+      "thumb": "https://stream.kick.com/thumbnails/livestream/137466850/thumb0/video_thumbnail/thumb0.jpg",
+      "seguidores": 3973,
+      "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
+    },
+    "pit9nn": {
       "plataforma": "kick",
       "aoVivo": false,
       "espectadores": 0,
@@ -53,29 +75,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 4183,
-      "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
-    },
-    "mikotofps": {
-      "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 53,
-      "titulo": "Grindando Rob run !  🇫🇷",
-      "categoria": "Rob Run",
-      "iniciadoEm": "2026-11-12T19:35:32.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/137466850/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 3958,
-      "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
-    },
-    "pit9nn": {
-      "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 12,
-      "titulo": "ABUSADAO CAMISA VERSACE  🇫🇷 - FRANÇA PIT9 - 🇫🇷 cpxgg❗Pix❗Sociais ❗Comandos",
-      "categoria": "Grand Theft Auto V (GTA)",
-      "iniciadoEm": "2026-11-12T21:41:14.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/137488446/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 3755,
+      "seguidores": 3758,
       "avatar": "https://files.kick.com/images/user/29375164/profile_image/conversion/c7f38e37-36fe-49a8-851a-7f43034153b8-fullsize.webp"
     },
     "vinimt7": {
@@ -91,13 +91,13 @@
     },
     "vinaolek": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 149,
-      "titulo": "TREININHO DO PRESENCIAL! !PIX !DISCORD",
-      "categoria": "Grand Theft Auto V (GTA)",
-      "iniciadoEm": "2026-11-12T21:45:19.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/137489152/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 27839,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 27877,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
     "mito7ofc": {
