@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-13T07:25:03.733Z",
+  "geradoEm": "2026-11-13T15:37:03.473Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -20,18 +20,18 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 5767,
+      "seguidores": 5766,
       "avatar": "https://files.kick.com/images/user/72602376/profile_image/conversion/8e2dbdf3-7e20-4d4b-b720-83c603b5c818-fullsize.webp"
     },
     "kroozzns": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 460,
-      "titulo": "GRINDANDO ROB RUN!! FOCO 🏆",
-      "categoria": "Rob Run",
-      "iniciadoEm": "2026-11-12T17:54:37.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/137449212/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 113115,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 113123,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -47,24 +47,24 @@
     },
     "lizrp": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 21,
-      "titulo": "LIVE SECRETA DA MADRUGADA! GRIND LEAGUE OF LEGENDS ep128",
-      "categoria": "League of Legends",
-      "iniciadoEm": "2026-11-13T05:42:44.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/137559653/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 4184,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 4186,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 24,
-      "titulo": "Grindando Rob run !  🇫🇷",
-      "categoria": "Rob Run",
-      "iniciadoEm": "2026-11-12T19:35:32.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/137466850/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 3973,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 3975,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
@@ -80,13 +80,13 @@
     },
     "vinimt7": {
       "plataforma": "kick",
-      "aoVivo": false,
-      "espectadores": 0,
-      "titulo": "",
-      "categoria": "",
-      "iniciadoEm": null,
-      "thumb": "",
-      "seguidores": 5378,
+      "aoVivo": true,
+      "espectadores": 63,
+      "titulo": "VINI DA FRANÇA CAI DA CAMA SEXTOU. !pix !pc !sociais !brava #cpxgg #241",
+      "categoria": "Grand Theft Auto V (GTA)",
+      "iniciadoEm": "2026-11-13T13:01:18.000Z",
+      "thumb": "https://stream.kick.com/thumbnails/livestream/137593295/thumb0/video_thumbnail/thumb0.jpg",
+      "seguidores": 5381,
       "avatar": "https://files.kick.com/images/user/67964558/profile_image/conversion/805965cd-c0f6-4218-ad59-6b8d52ccbb8d-fullsize.webp"
     },
     "vinaolek": {
@@ -97,7 +97,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 27877,
+      "seguidores": 27881,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
     "mito7ofc": {
