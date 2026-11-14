@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-14T01:49:29.074Z",
+  "geradoEm": "2026-11-14T08:17:30.739Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -9,7 +9,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 1217,
+      "seguidores": 1216,
       "avatar": "https://files.kick.com/images/user/69276383/profile_image/conversion/89076e2c-33a8-4089-ac39-ce41af93a643-fullsize.webp"
     },
     "diparis7k": {
@@ -20,18 +20,18 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 5773,
+      "seguidores": 5774,
       "avatar": "https://files.kick.com/images/user/72602376/profile_image/conversion/8e2dbdf3-7e20-4d4b-b720-83c603b5c818-fullsize.webp"
     },
     "kroozzns": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 1408,
-      "titulo": "GRIND ROB RUN! SEXTOU🏆",
-      "categoria": "Rob Run",
-      "iniciadoEm": "2026-11-13T20:00:24.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/137659579/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 113234,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 113276,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -42,7 +42,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 762,
+      "seguidores": 761,
       "avatar": "https://files.kick.com/images/user/21274838/profile_image/conversion/8d7cd1b9-6eea-4929-a1d8-ed4a05e44412-fullsize.webp"
     },
     "lizrp": {
@@ -59,23 +59,23 @@
     "mikotofps": {
       "plataforma": "kick",
       "aoVivo": true,
-      "espectadores": 64,
+      "espectadores": 70,
       "titulo": "Grindando Rob run !  🇫🇷",
       "categoria": "Rob Run",
       "iniciadoEm": "2026-11-13T18:47:19.000Z",
       "thumb": "https://stream.kick.com/thumbnails/livestream/137646176/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 3986,
+      "seguidores": 4002,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 8,
-      "titulo": "F 🇫🇷 - FRANÇA PIT9 - 🇫🇷 cpxgg❗Pix❗Sociais ❗Comandos",
-      "categoria": "VALORANT",
-      "iniciadoEm": "2026-11-13T23:35:24.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/137696536/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 3758,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 3760,
       "avatar": "https://files.kick.com/images/user/29375164/profile_image/conversion/c7f38e37-36fe-49a8-851a-7f43034153b8-fullsize.webp"
     },
     "vinimt7": {
@@ -97,7 +97,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 27883,
+      "seguidores": 27885,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
     "mito7ofc": {
