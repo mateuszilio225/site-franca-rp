@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-15T03:43:22.928Z",
+  "geradoEm": "2026-11-15T11:33:30.649Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -31,7 +31,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 113294,
+      "seguidores": 113295,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -42,29 +42,29 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 762,
+      "seguidores": 763,
       "avatar": "https://files.kick.com/images/user/21274838/profile_image/conversion/8d7cd1b9-6eea-4929-a1d8-ed4a05e44412-fullsize.webp"
     },
     "lizrp": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 32,
-      "titulo": "RADINHO FINAL DO WORLDS! #foraGENG ep129",
-      "categoria": "League of Legends",
-      "iniciadoEm": "2026-11-14T18:47:17.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/137840047/thumb0/video_thumbnail/thumb0.jpg",
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
       "seguidores": 4183,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 103,
-      "titulo": "Grindando Rob run !  🇫🇷",
-      "categoria": "Rob Run",
-      "iniciadoEm": "2026-11-14T19:00:52.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/137843128/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 4046,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 4068,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
@@ -91,13 +91,13 @@
     },
     "vinaolek": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 829,
-      "titulo": "IRL COM O TIME PRESENCIAL! !pix",
-      "categoria": "IRL",
-      "iniciadoEm": "2026-11-15T02:42:30.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/137923926/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 28119,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 28153,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
     "mito7ofc": {
