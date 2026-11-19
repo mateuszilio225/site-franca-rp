@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-19T17:43:58.798Z",
+  "geradoEm": "2026-11-19T23:54:37.320Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -14,24 +14,24 @@
     },
     "diparis7k": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 14,
-      "titulo": "O INICIO DA NOSSA HISTORIA! GTA VI !pixgg !discord",
-      "categoria": "Grand Theft Auto VI (GTA)",
-      "iniciadoEm": "2026-11-19T14:51:23.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/138864518/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 5877,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 5878,
       "avatar": "https://files.kick.com/images/user/72602376/profile_image/conversion/d759276b-217b-4961-9317-47855f9942e7-fullsize.webp"
     },
     "kroozzns": {
       "plataforma": "kick",
       "aoVivo": true,
-      "espectadores": 1057,
-      "titulo": "GTAVI MODO HISTÓRIA - PT 2 🏆",
+      "espectadores": 887,
+      "titulo": "GTAVI MODO HISTÓRIA - PT 2 (Progresso em 35%) 🏆",
       "categoria": "Grand Theft Auto VI (GTA)",
       "iniciadoEm": "2026-11-19T15:07:14.000Z",
       "thumb": "https://stream.kick.com/thumbnails/livestream/138867544/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 114229,
+      "seguidores": 114300,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -59,12 +59,12 @@
     "mikotofps": {
       "plataforma": "kick",
       "aoVivo": true,
-      "espectadores": 40,
+      "espectadores": 35,
       "titulo": "Lançamento GTA VI!",
       "categoria": "Grand Theft Auto VI (GTA)",
       "iniciadoEm": "2026-11-19T14:11:14.000Z",
       "thumb": "https://stream.kick.com/thumbnails/livestream/138857549/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 4230,
+      "seguidores": 4231,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
