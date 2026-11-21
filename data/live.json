@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-21T11:32:39.929Z",
+  "geradoEm": "2026-11-21T18:11:34.072Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -31,7 +31,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 114495,
+      "seguidores": 114500,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -58,13 +58,13 @@
     },
     "mikotofps": {
       "plataforma": "kick",
-      "aoVivo": false,
-      "espectadores": 0,
-      "titulo": "",
-      "categoria": "",
-      "iniciadoEm": null,
-      "thumb": "",
-      "seguidores": 4238,
+      "aoVivo": true,
+      "espectadores": 39,
+      "titulo": "Lançamento GTA VI!",
+      "categoria": "Grand Theft Auto VI (GTA)",
+      "iniciadoEm": "2026-11-21T17:12:09.000Z",
+      "thumb": "https://stream.kick.com/thumbnails/livestream/139388508/thumb0/video_thumbnail/thumb0.jpg",
+      "seguidores": 4237,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
@@ -97,7 +97,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 28640,
+      "seguidores": 28639,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
     "mito7ofc": {
