@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-21T03:21:30.775Z",
+  "geradoEm": "2026-11-21T11:32:39.929Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -25,13 +25,13 @@
     },
     "kroozzns": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 874,
-      "titulo": "GTAVI MODO HISTÓRIA - PT 3 (Progresso em 46%) 🏆",
-      "categoria": "Grand Theft Auto VI (GTA)",
-      "iniciadoEm": "2026-11-20T17:11:06.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/139146275/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 114450,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 114495,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -47,24 +47,24 @@
     },
     "lizrp": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 14,
-      "titulo": "ATM 11! - ep134",
-      "categoria": "Minecraft",
-      "iniciadoEm": "2026-11-20T20:27:47.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/139192356/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 4228,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 4229,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 35,
-      "titulo": "Lançamento GTA VI!",
-      "categoria": "Grand Theft Auto VI (GTA)",
-      "iniciadoEm": "2026-11-20T16:45:35.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/139140240/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 4236,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 4238,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
@@ -75,7 +75,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 3769,
+      "seguidores": 3770,
       "avatar": "https://files.kick.com/images/user/29375164/profile_image/conversion/c7f38e37-36fe-49a8-851a-7f43034153b8-fullsize.webp"
     },
     "vinimt7": {
@@ -97,7 +97,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 28639,
+      "seguidores": 28640,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
     "mito7ofc": {
