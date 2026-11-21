@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-21T18:11:34.072Z",
+  "geradoEm": "2026-11-21T23:24:58.990Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -31,7 +31,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 114500,
+      "seguidores": 114499,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -47,24 +47,24 @@
     },
     "lizrp": {
       "plataforma": "kick",
-      "aoVivo": false,
-      "espectadores": 0,
-      "titulo": "",
-      "categoria": "",
-      "iniciadoEm": null,
-      "thumb": "",
+      "aoVivo": true,
+      "espectadores": 31,
+      "titulo": "ATM 10, MAS, AS BB QUER JOGAR GTA VI! - ep135",
+      "categoria": "Minecraft",
+      "iniciadoEm": "2026-11-21T22:21:00.000Z",
+      "thumb": "https://stream.kick.com/thumbnails/livestream/139455458/thumb0/video_thumbnail/thumb0.jpg",
       "seguidores": 4229,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
       "plataforma": "kick",
       "aoVivo": true,
-      "espectadores": 39,
+      "espectadores": 57,
       "titulo": "Lançamento GTA VI!",
       "categoria": "Grand Theft Auto VI (GTA)",
       "iniciadoEm": "2026-11-21T17:12:09.000Z",
       "thumb": "https://stream.kick.com/thumbnails/livestream/139388508/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 4237,
+      "seguidores": 4236,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
@@ -75,7 +75,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 3770,
+      "seguidores": 3771,
       "avatar": "https://files.kick.com/images/user/29375164/profile_image/conversion/c7f38e37-36fe-49a8-851a-7f43034153b8-fullsize.webp"
     },
     "vinimt7": {
@@ -97,7 +97,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 28639,
+      "seguidores": 28637,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
     "mito7ofc": {
