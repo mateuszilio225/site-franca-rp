@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-22T03:23:27.490Z",
+  "geradoEm": "2026-11-22T11:50:19.710Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -31,7 +31,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 114499,
+      "seguidores": 114501,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -48,23 +48,23 @@
     "lizrp": {
       "plataforma": "kick",
       "aoVivo": true,
-      "espectadores": 29,
+      "espectadores": 20,
       "titulo": "ATM 10, MAS, AS BB QUER JOGAR GTA VI! - ep135",
       "categoria": "Minecraft",
       "iniciadoEm": "2026-11-21T22:21:00.000Z",
       "thumb": "https://stream.kick.com/thumbnails/livestream/139455458/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 4231,
+      "seguidores": 4236,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 63,
-      "titulo": "Lançamento GTA VI!",
-      "categoria": "Grand Theft Auto VI (GTA)",
-      "iniciadoEm": "2026-11-21T17:12:09.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/139388508/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 4236,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 4238,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
