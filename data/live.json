@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-22T23:59:02.086Z",
+  "geradoEm": "2026-11-23T07:22:35.695Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -20,7 +20,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 5880,
+      "seguidores": 5879,
       "avatar": "https://files.kick.com/images/user/72602376/profile_image/conversion/d759276b-217b-4961-9317-47855f9942e7-fullsize.webp"
     },
     "kroozzns": {
@@ -31,7 +31,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 114505,
+      "seguidores": 114506,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -47,24 +47,24 @@
     },
     "lizrp": {
       "plataforma": "kick",
-      "aoVivo": false,
-      "espectadores": 0,
-      "titulo": "",
-      "categoria": "",
-      "iniciadoEm": null,
-      "thumb": "",
-      "seguidores": 4236,
+      "aoVivo": true,
+      "espectadores": 15,
+      "titulo": "MAIN SUP NO ESMERALDA! - ep136",
+      "categoria": "Minecraft",
+      "iniciadoEm": "2026-11-23T00:39:51.000Z",
+      "thumb": "https://stream.kick.com/thumbnails/livestream/139709856/thumb0/video_thumbnail/thumb0.jpg",
+      "seguidores": 4240,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
       "plataforma": "kick",
       "aoVivo": true,
-      "espectadores": 54,
+      "espectadores": 30,
       "titulo": "Lançamento GTA VI!",
       "categoria": "Grand Theft Auto VI (GTA)",
       "iniciadoEm": "2026-11-22T19:32:21.000Z",
       "thumb": "https://stream.kick.com/thumbnails/livestream/139650438/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 4239,
+      "seguidores": 4240,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
