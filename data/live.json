@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-24T04:23:06.850Z",
+  "geradoEm": "2026-11-24T15:07:09.237Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -25,13 +25,13 @@
     },
     "kroozzns": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 583,
-      "titulo": "GTAVI MODO HISTÓRIA - PT 4 (Progresso em 51%) 🏆",
-      "categoria": "Grand Theft Auto VI (GTA)",
-      "iniciadoEm": "2026-11-23T16:20:26.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/139812388/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 114627,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 114630,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -58,13 +58,13 @@
     },
     "mikotofps": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 29,
-      "titulo": "Lançamento GTA VI!",
-      "categoria": "Grand Theft Auto VI (GTA)",
-      "iniciadoEm": "2026-11-23T18:25:06.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/139836051/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 4240,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 4241,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
@@ -97,7 +97,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 28635,
+      "seguidores": 28634,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
     "mito7ofc": {
