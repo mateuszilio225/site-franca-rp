@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-24T23:53:28.701Z",
+  "geradoEm": "2026-11-25T07:18:27.602Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -25,13 +25,13 @@
     },
     "kroozzns": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 740,
-      "titulo": "GTAVI MODO HISTÓRIA - PT 5 (Progresso em 53%) 🏆",
-      "categoria": "Grand Theft Auto VI (GTA)",
-      "iniciadoEm": "2026-11-24T17:43:54.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/140026512/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 114648,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 114687,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -47,24 +47,24 @@
     },
     "lizrp": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 28,
-      "titulo": "MAIN SUP NO ESMERALDA! - ep137",
-      "categoria": "VALORANT",
-      "iniciadoEm": "2026-11-24T20:48:28.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/140060186/thumb0/video_thumbnail/thumb0.jpg",
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
       "seguidores": 4239,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
       "plataforma": "kick",
       "aoVivo": true,
-      "espectadores": 26,
+      "espectadores": 36,
       "titulo": "Em busca da platina GTA VI! 74%",
-      "categoria": "Grand Theft Auto VI (GTA)",
+      "categoria": "Rob Run",
       "iniciadoEm": "2026-11-24T20:42:26.000Z",
       "thumb": "https://stream.kick.com/thumbnails/livestream/140059183/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 4241,
+      "seguidores": 4245,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
@@ -75,7 +75,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 3771,
+      "seguidores": 3770,
       "avatar": "https://files.kick.com/images/user/29375164/profile_image/conversion/c7f38e37-36fe-49a8-851a-7f43034153b8-fullsize.webp"
     },
     "vinimt7": {
@@ -97,7 +97,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 28633,
+      "seguidores": 28630,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
     "mito7ofc": {
