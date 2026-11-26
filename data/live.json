@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-26T10:05:14.460Z",
+  "geradoEm": "2026-11-26T19:35:34.387Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -9,18 +9,18 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 1201,
+      "seguidores": 1200,
       "avatar": "https://files.kick.com/images/user/69276383/profile_image/conversion/89076e2c-33a8-4089-ac39-ce41af93a643-fullsize.webp"
     },
     "diparis7k": {
       "plataforma": "kick",
-      "aoVivo": false,
-      "espectadores": 0,
-      "titulo": "",
-      "categoria": "",
-      "iniciadoEm": null,
+      "aoVivo": true,
+      "espectadores": 29,
+      "titulo": "JASON MAIS GANGSTAR DO BR| Ep#03 - !pixgg !discord",
+      "categoria": "Grand Theft Auto VI (GTA)",
+      "iniciadoEm": "2026-11-26T15:43:41.000Z",
       "thumb": "",
-      "seguidores": 5878,
+      "seguidores": 5879,
       "avatar": "https://files.kick.com/images/user/72602376/profile_image/conversion/d759276b-217b-4961-9317-47855f9942e7-fullsize.webp"
     },
     "kroozzns": {
@@ -31,7 +31,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 114741,
+      "seguidores": 114737,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -58,13 +58,13 @@
     },
     "mikotofps": {
       "plataforma": "kick",
-      "aoVivo": false,
-      "espectadores": 0,
-      "titulo": "",
-      "categoria": "",
-      "iniciadoEm": null,
-      "thumb": "",
-      "seguidores": 4246,
+      "aoVivo": true,
+      "espectadores": 37,
+      "titulo": "Em busca da platina GTA VI! 74% e ROB RUN!!",
+      "categoria": "Rob Run",
+      "iniciadoEm": "2026-11-26T18:59:03.000Z",
+      "thumb": "https://stream.kick.com/thumbnails/livestream/140430119/thumb0/video_thumbnail/thumb0.jpg",
+      "seguidores": 4247,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
@@ -75,7 +75,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 3768,
+      "seguidores": 3767,
       "avatar": "https://files.kick.com/images/user/29375164/profile_image/conversion/c7f38e37-36fe-49a8-851a-7f43034153b8-fullsize.webp"
     },
     "vinimt7": {
@@ -97,7 +97,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 28630,
+      "seguidores": 28629,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
     "mito7ofc": {
