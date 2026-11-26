@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-25T18:03:44.786Z",
+  "geradoEm": "2026-11-26T01:45:39.938Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -14,24 +14,24 @@
     },
     "diparis7k": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 27,
-      "titulo": "TILTANDO NO ROB RUN | Ep#03 - !pixgg !discord",
-      "categoria": "Rob Run",
-      "iniciadoEm": "2026-11-25T16:19:28.000Z",
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 5879,
+      "seguidores": 5880,
       "avatar": "https://files.kick.com/images/user/72602376/profile_image/conversion/d759276b-217b-4961-9317-47855f9942e7-fullsize.webp"
     },
     "kroozzns": {
       "plataforma": "kick",
       "aoVivo": true,
-      "espectadores": 143,
+      "espectadores": 644,
       "titulo": "GTAVI MODO HISTÓRIA - PT 6 (Progresso em 57%) 🏆",
       "categoria": "Grand Theft Auto VI (GTA)",
       "iniciadoEm": "2026-11-25T17:57:41.000Z",
       "thumb": "https://stream.kick.com/thumbnails/livestream/140225055/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 114687,
+      "seguidores": 114725,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -47,13 +47,13 @@
     },
     "lizrp": {
       "plataforma": "kick",
-      "aoVivo": false,
-      "espectadores": 0,
-      "titulo": "",
-      "categoria": "",
-      "iniciadoEm": null,
-      "thumb": "",
-      "seguidores": 4239,
+      "aoVivo": true,
+      "espectadores": 26,
+      "titulo": "league hoje TRYHARD! T1 ZEUSSSS - ep138",
+      "categoria": "League of Legends",
+      "iniciadoEm": "2026-11-25T21:37:00.000Z",
+      "thumb": "https://stream.kick.com/thumbnails/livestream/140263644/thumb0/video_thumbnail/thumb0.jpg",
+      "seguidores": 4241,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
@@ -69,12 +69,12 @@
     },
     "pit9nn": {
       "plataforma": "kick",
-      "aoVivo": false,
-      "espectadores": 0,
-      "titulo": "",
-      "categoria": "",
-      "iniciadoEm": null,
-      "thumb": "",
+      "aoVivo": true,
+      "espectadores": 12,
+      "titulo": "POR AI  🇫🇷 - cpxgg ❗Pix❗Sociais ❗Comandos",
+      "categoria": "Grand Theft Auto V (GTA)",
+      "iniciadoEm": "2026-11-26T00:44:22.000Z",
+      "thumb": "https://stream.kick.com/thumbnails/livestream/140295278/thumb0/video_thumbnail/thumb0.jpg",
       "seguidores": 3769,
       "avatar": "https://files.kick.com/images/user/29375164/profile_image/conversion/c7f38e37-36fe-49a8-851a-7f43034153b8-fullsize.webp"
     },
