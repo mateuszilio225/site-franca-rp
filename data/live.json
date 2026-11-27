@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-27T11:14:28.811Z",
+  "geradoEm": "2026-11-27T20:03:21.254Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -9,29 +9,29 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 1200,
+      "seguidores": 1199,
       "avatar": "https://files.kick.com/images/user/69276383/profile_image/conversion/89076e2c-33a8-4089-ac39-ce41af93a643-fullsize.webp"
     },
     "diparis7k": {
       "plataforma": "kick",
-      "aoVivo": false,
-      "espectadores": 0,
-      "titulo": "",
-      "categoria": "",
-      "iniciadoEm": null,
+      "aoVivo": true,
+      "espectadores": 18,
+      "titulo": "DIA DE WIPE | Ep#03 - !pixgg !discord",
+      "categoria": "Rob Run",
+      "iniciadoEm": "2026-11-27T15:37:04.000Z",
       "thumb": "",
-      "seguidores": 5882,
+      "seguidores": 5886,
       "avatar": "https://files.kick.com/images/user/72602376/profile_image/conversion/d759276b-217b-4961-9317-47855f9942e7-fullsize.webp"
     },
     "kroozzns": {
       "plataforma": "kick",
-      "aoVivo": false,
-      "espectadores": 0,
-      "titulo": "",
-      "categoria": "",
-      "iniciadoEm": null,
-      "thumb": "",
-      "seguidores": 114767,
+      "aoVivo": true,
+      "espectadores": 395,
+      "titulo": "JOGANDO UM WIPE NO ROB RUN COM A RAPAZIADA & GTA 6 (61% DA HISTÓRIA) 🏆",
+      "categoria": "Rob Run",
+      "iniciadoEm": "2026-11-27T18:24:45.000Z",
+      "thumb": "https://stream.kick.com/thumbnails/livestream/140611595/thumb0/video_thumbnail/thumb0.jpg",
+      "seguidores": 114771,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -42,7 +42,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 750,
+      "seguidores": 749,
       "avatar": "https://files.kick.com/images/user/21274838/profile_image/conversion/8d7cd1b9-6eea-4929-a1d8-ed4a05e44412-fullsize.webp"
     },
     "lizrp": {
@@ -53,18 +53,18 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 4238,
+      "seguidores": 4237,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
       "plataforma": "kick",
-      "aoVivo": false,
-      "espectadores": 0,
-      "titulo": "",
-      "categoria": "",
-      "iniciadoEm": null,
+      "aoVivo": true,
+      "espectadores": 44,
+      "titulo": "Em busca da platina GTA VI! 74% e ROB RUN!!",
+      "categoria": "Rob Run",
+      "iniciadoEm": "2026-11-27T15:40:54.000Z",
       "thumb": "",
-      "seguidores": 4249,
+      "seguidores": 4250,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
@@ -80,23 +80,23 @@
     },
     "vinimt7": {
       "plataforma": "kick",
-      "aoVivo": false,
-      "espectadores": 0,
-      "titulo": "",
-      "categoria": "",
-      "iniciadoEm": null,
-      "thumb": "",
+      "aoVivo": true,
+      "espectadores": 74,
+      "titulo": "DIA APOS DIA. !pix !pc !sociais !brava #cpxgg #252",
+      "categoria": "Grand Theft Auto V (GTA)",
+      "iniciadoEm": "2026-11-27T18:55:53.000Z",
+      "thumb": "https://stream.kick.com/thumbnails/livestream/140617429/thumb0/video_thumbnail/thumb0.jpg",
       "seguidores": 5435,
       "avatar": "https://files.kick.com/images/user/67964558/profile_image/conversion/805965cd-c0f6-4218-ad59-6b8d52ccbb8d-fullsize.webp"
     },
     "vinaolek": {
       "plataforma": "kick",
-      "aoVivo": false,
-      "espectadores": 0,
-      "titulo": "",
-      "categoria": "",
-      "iniciadoEm": null,
-      "thumb": "",
+      "aoVivo": true,
+      "espectadores": 116,
+      "titulo": "O INICIO - GTA 6 !PIX !DISCORD",
+      "categoria": "Grand Theft Auto VI (GTA)",
+      "iniciadoEm": "2026-11-27T18:57:13.000Z",
+      "thumb": "https://stream.kick.com/thumbnails/livestream/140617680/thumb0/video_thumbnail/thumb0.jpg",
       "seguidores": 28632,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
