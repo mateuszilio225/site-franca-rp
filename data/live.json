@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-27T02:24:09.157Z",
+  "geradoEm": "2026-11-27T11:14:28.811Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -20,7 +20,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 5883,
+      "seguidores": 5882,
       "avatar": "https://files.kick.com/images/user/72602376/profile_image/conversion/d759276b-217b-4961-9317-47855f9942e7-fullsize.webp"
     },
     "kroozzns": {
@@ -47,12 +47,12 @@
     },
     "lizrp": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 19,
-      "titulo": "grind league of legends main lulu - ep139",
-      "categoria": "League of Legends",
-      "iniciadoEm": "2026-11-26T21:35:45.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/140456613/thumb0/video_thumbnail/thumb0.jpg",
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
       "seguidores": 4238,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
