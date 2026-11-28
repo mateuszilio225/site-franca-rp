@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-27T20:03:21.254Z",
+  "geradoEm": "2026-11-28T02:38:34.807Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -15,23 +15,23 @@
     "diparis7k": {
       "plataforma": "kick",
       "aoVivo": true,
-      "espectadores": 18,
+      "espectadores": 50,
       "titulo": "DIA DE WIPE | Ep#03 - !pixgg !discord",
       "categoria": "Rob Run",
       "iniciadoEm": "2026-11-27T15:37:04.000Z",
       "thumb": "",
-      "seguidores": 5886,
+      "seguidores": 5889,
       "avatar": "https://files.kick.com/images/user/72602376/profile_image/conversion/d759276b-217b-4961-9317-47855f9942e7-fullsize.webp"
     },
     "kroozzns": {
       "plataforma": "kick",
       "aoVivo": true,
-      "espectadores": 395,
-      "titulo": "JOGANDO UM WIPE NO ROB RUN COM A RAPAZIADA & GTA 6 (61% DA HISTÓRIA) 🏆",
-      "categoria": "Rob Run",
+      "espectadores": 689,
+      "titulo": "CONTINUANDO A HISTORIA NO GTA 6! (62% no Progresso) 🏆",
+      "categoria": "Grand Theft Auto VI (GTA)",
       "iniciadoEm": "2026-11-27T18:24:45.000Z",
       "thumb": "https://stream.kick.com/thumbnails/livestream/140611595/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 114771,
+      "seguidores": 114810,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -53,18 +53,18 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 4237,
+      "seguidores": 4235,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 44,
-      "titulo": "Em busca da platina GTA VI! 74% e ROB RUN!!",
-      "categoria": "Rob Run",
-      "iniciadoEm": "2026-11-27T15:40:54.000Z",
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 4250,
+      "seguidores": 4253,
       "avatar": "https://files.kick.com/images/user/9033827/profile_image/conversion/6e182406-7151-4730-8c19-b9d3699e2c23-fullsize.webp"
     },
     "pit9nn": {
@@ -75,29 +75,29 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 3767,
+      "seguidores": 3770,
       "avatar": "https://files.kick.com/images/user/29375164/profile_image/conversion/c7f38e37-36fe-49a8-851a-7f43034153b8-fullsize.webp"
     },
     "vinimt7": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 74,
-      "titulo": "DIA APOS DIA. !pix !pc !sociais !brava #cpxgg #252",
-      "categoria": "Grand Theft Auto V (GTA)",
-      "iniciadoEm": "2026-11-27T18:55:53.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/140617429/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 5435,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 5437,
       "avatar": "https://files.kick.com/images/user/67964558/profile_image/conversion/805965cd-c0f6-4218-ad59-6b8d52ccbb8d-fullsize.webp"
     },
     "vinaolek": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 116,
-      "titulo": "O INICIO - GTA 6 !PIX !DISCORD",
-      "categoria": "Grand Theft Auto VI (GTA)",
-      "iniciadoEm": "2026-11-27T18:57:13.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/140617680/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 28632,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 28651,
       "avatar": "https://files.kick.com/images/user/55534078/profile_image/conversion/0c3b8ebd-cc83-48f6-ada9-57b638db813f-fullsize.webp"
     },
     "mito7ofc": {
