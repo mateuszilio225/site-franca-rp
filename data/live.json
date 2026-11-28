@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-28T02:38:34.807Z",
+  "geradoEm": "2026-11-28T10:54:25.205Z",
   "streamers": {
     "bryannsz1": {
       "plataforma": "kick",
@@ -9,29 +9,29 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 1199,
+      "seguidores": 1198,
       "avatar": "https://files.kick.com/images/user/69276383/profile_image/conversion/89076e2c-33a8-4089-ac39-ce41af93a643-fullsize.webp"
     },
     "diparis7k": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 50,
-      "titulo": "DIA DE WIPE | Ep#03 - !pixgg !discord",
-      "categoria": "Rob Run",
-      "iniciadoEm": "2026-11-27T15:37:04.000Z",
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 5889,
+      "seguidores": 5892,
       "avatar": "https://files.kick.com/images/user/72602376/profile_image/conversion/d759276b-217b-4961-9317-47855f9942e7-fullsize.webp"
     },
     "kroozzns": {
       "plataforma": "kick",
-      "aoVivo": true,
-      "espectadores": 689,
-      "titulo": "CONTINUANDO A HISTORIA NO GTA 6! (62% no Progresso) 🏆",
-      "categoria": "Grand Theft Auto VI (GTA)",
-      "iniciadoEm": "2026-11-27T18:24:45.000Z",
-      "thumb": "https://stream.kick.com/thumbnails/livestream/140611595/thumb0/video_thumbnail/thumb0.jpg",
-      "seguidores": 114810,
+      "aoVivo": false,
+      "espectadores": 0,
+      "titulo": "",
+      "categoria": "",
+      "iniciadoEm": null,
+      "thumb": "",
+      "seguidores": 114818,
       "avatar": "https://files.kick.com/images/user/566844/profile_image/conversion/b7c25e92-f63a-4351-b49f-009682b87a46-fullsize.webp"
     },
     "leozaoo7": {
@@ -53,7 +53,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 4235,
+      "seguidores": 4233,
       "avatar": "https://files.kick.com/images/user/12111249/profile_image/conversion/7dacc7d4-6208-4b79-918c-bf8bad05e7dd-fullsize.webp"
     },
     "mikotofps": {
@@ -75,7 +75,7 @@
       "categoria": "",
       "iniciadoEm": null,
       "thumb": "",
-      "seguidores": 3770,
+      "seguidores": 3769,
       "avatar": "https://files.kick.com/images/user/29375164/profile_image/conversion/c7f38e37-36fe-49a8-851a-7f43034153b8-fullsize.webp"
     },
     "vinimt7": {
